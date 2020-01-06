@@ -1,0 +1,22 @@
+universe = vanilla
+
+executable = assembly_metaspades.sh
+
+#REQUIREMENTS:
+
+Requirements = (OpSys == "LINUX") && (OpSysMajorVer == 7) && (Target.HasGluster == true)
+
+transfer_input_files = ./python-3.6.6.tar.gz, ./bowtie2-2.3.4-linux-x86_64.zip, ./SPAdes-3.11.1-Linux.tar.gz
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+log = metaspades_bowtie2_log/metaspades_assembly_bowtie2_DO022.log
+error = metaspades_bowtie2_err/metaspades_assembly_bowtie2_DO022.error
+output= metaspades_bowtie2_out/metaspades_assembly_bowtie2_DO022.out
+
+request_memory = 30GB
+request_disk = 50GB
+request_cpus = 16
+
+queue
