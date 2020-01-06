@@ -1,0 +1,3919 @@
+universe = vanilla
+
+executable = binning_coverage_tbl.sh
+arguments = $(mouse)
+
+#REQUIREMENTS:
+
+Requirements = (OpSys == "LINUX") && (OpSysMajorVer == 7) && (Target.HasGluster == true)
+
+transfer_input_files = bowtie2-2.3.4-linux-x86_64.zip, \
+samtools_1.9.tar.gz, \
+Prodigal-2.6.3.tar.gz, \
+automate_fasta_length_table.pl, \
+automate_contig_coverage_from_bedtools.pl, \
+bedtools2-2.28.0.tar.gz
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+log = DO_autometa_step1_coverage_tbl/DO021.log
+error = DO_autometa_step1_coverage_tbl/DO021.error
+output= DO_autometa_step1_coverage_tbl/DO021.out
+
+mouse = 021
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO022.log
+error = DO_autometa_step1_coverage_tbl/DO022.error
+output= DO_autometa_step1_coverage_tbl/DO022.out
+
+mouse = 022
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO023.log
+error = DO_autometa_step1_coverage_tbl/DO023.error
+output= DO_autometa_step1_coverage_tbl/DO023.out
+
+mouse = 023
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO024.log
+error = DO_autometa_step1_coverage_tbl/DO024.error
+output= DO_autometa_step1_coverage_tbl/DO024.out
+
+mouse = 024
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO025.log
+error = DO_autometa_step1_coverage_tbl/DO025.error
+output= DO_autometa_step1_coverage_tbl/DO025.out
+
+mouse = 025
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO026.log
+error = DO_autometa_step1_coverage_tbl/DO026.error
+output= DO_autometa_step1_coverage_tbl/DO026.out
+
+mouse = 026
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO027.log
+error = DO_autometa_step1_coverage_tbl/DO027.error
+output= DO_autometa_step1_coverage_tbl/DO027.out
+
+mouse = 027
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO028.log
+error = DO_autometa_step1_coverage_tbl/DO028.error
+output= DO_autometa_step1_coverage_tbl/DO028.out
+
+mouse = 028
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO029.log
+error = DO_autometa_step1_coverage_tbl/DO029.error
+output= DO_autometa_step1_coverage_tbl/DO029.out
+
+mouse = 029
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO030.log
+error = DO_autometa_step1_coverage_tbl/DO030.error
+output= DO_autometa_step1_coverage_tbl/DO030.out
+
+mouse = 030
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO031.log
+error = DO_autometa_step1_coverage_tbl/DO031.error
+output= DO_autometa_step1_coverage_tbl/DO031.out
+
+mouse = 031
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO032.log
+error = DO_autometa_step1_coverage_tbl/DO032.error
+output= DO_autometa_step1_coverage_tbl/DO032.out
+
+mouse = 032
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO033.log
+error = DO_autometa_step1_coverage_tbl/DO033.error
+output= DO_autometa_step1_coverage_tbl/DO033.out
+
+mouse = 033
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO034.log
+error = DO_autometa_step1_coverage_tbl/DO034.error
+output= DO_autometa_step1_coverage_tbl/DO034.out
+
+mouse = 034
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO035.log
+error = DO_autometa_step1_coverage_tbl/DO035.error
+output= DO_autometa_step1_coverage_tbl/DO035.out
+
+mouse = 035
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO036.log
+error = DO_autometa_step1_coverage_tbl/DO036.error
+output= DO_autometa_step1_coverage_tbl/DO036.out
+
+mouse = 036
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO037.log
+error = DO_autometa_step1_coverage_tbl/DO037.error
+output= DO_autometa_step1_coverage_tbl/DO037.out
+
+mouse = 037
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO038.log
+error = DO_autometa_step1_coverage_tbl/DO038.error
+output= DO_autometa_step1_coverage_tbl/DO038.out
+
+mouse = 038
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO039.log
+error = DO_autometa_step1_coverage_tbl/DO039.error
+output= DO_autometa_step1_coverage_tbl/DO039.out
+
+mouse = 039
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO040.log
+error = DO_autometa_step1_coverage_tbl/DO040.error
+output= DO_autometa_step1_coverage_tbl/DO040.out
+
+mouse = 040
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO041.log
+error = DO_autometa_step1_coverage_tbl/DO041.error
+output= DO_autometa_step1_coverage_tbl/DO041.out
+
+mouse = 041
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO042.log
+error = DO_autometa_step1_coverage_tbl/DO042.error
+output= DO_autometa_step1_coverage_tbl/DO042.out
+
+mouse = 042
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO043.log
+error = DO_autometa_step1_coverage_tbl/DO043.error
+output= DO_autometa_step1_coverage_tbl/DO043.out
+
+mouse = 043
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO044.log
+error = DO_autometa_step1_coverage_tbl/DO044.error
+output= DO_autometa_step1_coverage_tbl/DO044.out
+
+mouse = 044
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO045.log
+error = DO_autometa_step1_coverage_tbl/DO045.error
+output= DO_autometa_step1_coverage_tbl/DO045.out
+
+mouse = 045
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO046.log
+error = DO_autometa_step1_coverage_tbl/DO046.error
+output= DO_autometa_step1_coverage_tbl/DO046.out
+
+mouse = 046
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO047.log
+error = DO_autometa_step1_coverage_tbl/DO047.error
+output= DO_autometa_step1_coverage_tbl/DO047.out
+
+mouse = 047
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO048.log
+error = DO_autometa_step1_coverage_tbl/DO048.error
+output= DO_autometa_step1_coverage_tbl/DO048.out
+
+mouse = 048
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO049.log
+error = DO_autometa_step1_coverage_tbl/DO049.error
+output= DO_autometa_step1_coverage_tbl/DO049.out
+
+mouse = 049
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO050.log
+error = DO_autometa_step1_coverage_tbl/DO050.error
+output= DO_autometa_step1_coverage_tbl/DO050.out
+
+mouse = 050
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO051.log
+error = DO_autometa_step1_coverage_tbl/DO051.error
+output= DO_autometa_step1_coverage_tbl/DO051.out
+
+mouse = 051
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO052.log
+error = DO_autometa_step1_coverage_tbl/DO052.error
+output= DO_autometa_step1_coverage_tbl/DO052.out
+
+mouse = 052
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO053.log
+error = DO_autometa_step1_coverage_tbl/DO053.error
+output= DO_autometa_step1_coverage_tbl/DO053.out
+
+mouse = 053
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO054.log
+error = DO_autometa_step1_coverage_tbl/DO054.error
+output= DO_autometa_step1_coverage_tbl/DO054.out
+
+mouse = 054
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO055.log
+error = DO_autometa_step1_coverage_tbl/DO055.error
+output= DO_autometa_step1_coverage_tbl/DO055.out
+
+mouse = 055
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO056.log
+error = DO_autometa_step1_coverage_tbl/DO056.error
+output= DO_autometa_step1_coverage_tbl/DO056.out
+
+mouse = 056
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO057.log
+error = DO_autometa_step1_coverage_tbl/DO057.error
+output= DO_autometa_step1_coverage_tbl/DO057.out
+
+mouse = 057
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO058.log
+error = DO_autometa_step1_coverage_tbl/DO058.error
+output= DO_autometa_step1_coverage_tbl/DO058.out
+
+mouse = 058
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO059.log
+error = DO_autometa_step1_coverage_tbl/DO059.error
+output= DO_autometa_step1_coverage_tbl/DO059.out
+
+mouse = 059
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO060.log
+error = DO_autometa_step1_coverage_tbl/DO060.error
+output= DO_autometa_step1_coverage_tbl/DO060.out
+
+mouse = 060
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO061.log
+error = DO_autometa_step1_coverage_tbl/DO061.error
+output= DO_autometa_step1_coverage_tbl/DO061.out
+
+mouse = 061
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO062.log
+error = DO_autometa_step1_coverage_tbl/DO062.error
+output= DO_autometa_step1_coverage_tbl/DO062.out
+
+mouse = 062
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO063.log
+error = DO_autometa_step1_coverage_tbl/DO063.error
+output= DO_autometa_step1_coverage_tbl/DO063.out
+
+mouse = 063
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO064.log
+error = DO_autometa_step1_coverage_tbl/DO064.error
+output= DO_autometa_step1_coverage_tbl/DO064.out
+
+mouse = 064
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO065.log
+error = DO_autometa_step1_coverage_tbl/DO065.error
+output= DO_autometa_step1_coverage_tbl/DO065.out
+
+mouse = 065
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO066.log
+error = DO_autometa_step1_coverage_tbl/DO066.error
+output= DO_autometa_step1_coverage_tbl/DO066.out
+
+mouse = 066
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO067.log
+error = DO_autometa_step1_coverage_tbl/DO067.error
+output= DO_autometa_step1_coverage_tbl/DO067.out
+
+mouse = 067
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO068.log
+error = DO_autometa_step1_coverage_tbl/DO068.error
+output= DO_autometa_step1_coverage_tbl/DO068.out
+
+mouse = 068
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO069.log
+error = DO_autometa_step1_coverage_tbl/DO069.error
+output= DO_autometa_step1_coverage_tbl/DO069.out
+
+mouse = 069
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO070.log
+error = DO_autometa_step1_coverage_tbl/DO070.error
+output= DO_autometa_step1_coverage_tbl/DO070.out
+
+mouse = 070
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO071.log
+error = DO_autometa_step1_coverage_tbl/DO071.error
+output= DO_autometa_step1_coverage_tbl/DO071.out
+
+mouse = 071
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO072.log
+error = DO_autometa_step1_coverage_tbl/DO072.error
+output= DO_autometa_step1_coverage_tbl/DO072.out
+
+mouse = 072
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO073.log
+error = DO_autometa_step1_coverage_tbl/DO073.error
+output= DO_autometa_step1_coverage_tbl/DO073.out
+
+mouse = 073
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO074.log
+error = DO_autometa_step1_coverage_tbl/DO074.error
+output= DO_autometa_step1_coverage_tbl/DO074.out
+
+mouse = 074
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO075.log
+error = DO_autometa_step1_coverage_tbl/DO075.error
+output= DO_autometa_step1_coverage_tbl/DO075.out
+
+mouse = 075
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO076.log
+error = DO_autometa_step1_coverage_tbl/DO076.error
+output= DO_autometa_step1_coverage_tbl/DO076.out
+
+mouse = 076
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO077.log
+error = DO_autometa_step1_coverage_tbl/DO077.error
+output= DO_autometa_step1_coverage_tbl/DO077.out
+
+mouse = 077
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO078.log
+error = DO_autometa_step1_coverage_tbl/DO078.error
+output= DO_autometa_step1_coverage_tbl/DO078.out
+
+mouse = 078
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO079.log
+error = DO_autometa_step1_coverage_tbl/DO079.error
+output= DO_autometa_step1_coverage_tbl/DO079.out
+
+mouse = 079
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO080.log
+error = DO_autometa_step1_coverage_tbl/DO080.error
+output= DO_autometa_step1_coverage_tbl/DO080.out
+
+mouse = 080
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO081.log
+error = DO_autometa_step1_coverage_tbl/DO081.error
+output= DO_autometa_step1_coverage_tbl/DO081.out
+
+mouse = 081
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO082.log
+error = DO_autometa_step1_coverage_tbl/DO082.error
+output= DO_autometa_step1_coverage_tbl/DO082.out
+
+mouse = 082
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO083.log
+error = DO_autometa_step1_coverage_tbl/DO083.error
+output= DO_autometa_step1_coverage_tbl/DO083.out
+
+mouse = 083
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO084.log
+error = DO_autometa_step1_coverage_tbl/DO084.error
+output= DO_autometa_step1_coverage_tbl/DO084.out
+
+mouse = 084
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO085.log
+error = DO_autometa_step1_coverage_tbl/DO085.error
+output= DO_autometa_step1_coverage_tbl/DO085.out
+
+mouse = 085
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO086.log
+error = DO_autometa_step1_coverage_tbl/DO086.error
+output= DO_autometa_step1_coverage_tbl/DO086.out
+
+mouse = 086
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO087.log
+error = DO_autometa_step1_coverage_tbl/DO087.error
+output= DO_autometa_step1_coverage_tbl/DO087.out
+
+mouse = 087
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO088.log
+error = DO_autometa_step1_coverage_tbl/DO088.error
+output= DO_autometa_step1_coverage_tbl/DO088.out
+
+mouse = 088
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO089.log
+error = DO_autometa_step1_coverage_tbl/DO089.error
+output= DO_autometa_step1_coverage_tbl/DO089.out
+
+mouse = 089
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO090.log
+error = DO_autometa_step1_coverage_tbl/DO090.error
+output= DO_autometa_step1_coverage_tbl/DO090.out
+
+mouse = 090
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO091.log
+error = DO_autometa_step1_coverage_tbl/DO091.error
+output= DO_autometa_step1_coverage_tbl/DO091.out
+
+mouse = 091
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO092.log
+error = DO_autometa_step1_coverage_tbl/DO092.error
+output= DO_autometa_step1_coverage_tbl/DO092.out
+
+mouse = 092
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO093.log
+error = DO_autometa_step1_coverage_tbl/DO093.error
+output= DO_autometa_step1_coverage_tbl/DO093.out
+
+mouse = 093
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO094.log
+error = DO_autometa_step1_coverage_tbl/DO094.error
+output= DO_autometa_step1_coverage_tbl/DO094.out
+
+mouse = 094
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO095.log
+error = DO_autometa_step1_coverage_tbl/DO095.error
+output= DO_autometa_step1_coverage_tbl/DO095.out
+
+mouse = 095
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO096.log
+error = DO_autometa_step1_coverage_tbl/DO096.error
+output= DO_autometa_step1_coverage_tbl/DO096.out
+
+mouse = 096
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO097.log
+error = DO_autometa_step1_coverage_tbl/DO097.error
+output= DO_autometa_step1_coverage_tbl/DO097.out
+
+mouse = 097
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO098.log
+error = DO_autometa_step1_coverage_tbl/DO098.error
+output= DO_autometa_step1_coverage_tbl/DO098.out
+
+mouse = 098
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO099.log
+error = DO_autometa_step1_coverage_tbl/DO099.error
+output= DO_autometa_step1_coverage_tbl/DO099.out
+
+mouse = 099
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO100.log
+error = DO_autometa_step1_coverage_tbl/DO100.error
+output= DO_autometa_step1_coverage_tbl/DO100.out
+
+mouse = 100
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO101.log
+error = DO_autometa_step1_coverage_tbl/DO101.error
+output= DO_autometa_step1_coverage_tbl/DO101.out
+
+mouse = 101
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO102.log
+error = DO_autometa_step1_coverage_tbl/DO102.error
+output= DO_autometa_step1_coverage_tbl/DO102.out
+
+mouse = 102
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO103.log
+error = DO_autometa_step1_coverage_tbl/DO103.error
+output= DO_autometa_step1_coverage_tbl/DO103.out
+
+mouse = 103
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO104.log
+error = DO_autometa_step1_coverage_tbl/DO104.error
+output= DO_autometa_step1_coverage_tbl/DO104.out
+
+mouse = 104
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO105.log
+error = DO_autometa_step1_coverage_tbl/DO105.error
+output= DO_autometa_step1_coverage_tbl/DO105.out
+
+mouse = 105
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO106.log
+error = DO_autometa_step1_coverage_tbl/DO106.error
+output= DO_autometa_step1_coverage_tbl/DO106.out
+
+mouse = 106
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO107.log
+error = DO_autometa_step1_coverage_tbl/DO107.error
+output= DO_autometa_step1_coverage_tbl/DO107.out
+
+mouse = 107
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO108.log
+error = DO_autometa_step1_coverage_tbl/DO108.error
+output= DO_autometa_step1_coverage_tbl/DO108.out
+
+mouse = 108
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO109.log
+error = DO_autometa_step1_coverage_tbl/DO109.error
+output= DO_autometa_step1_coverage_tbl/DO109.out
+
+mouse = 109
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO110.log
+error = DO_autometa_step1_coverage_tbl/DO110.error
+output= DO_autometa_step1_coverage_tbl/DO110.out
+
+mouse = 110
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO111.log
+error = DO_autometa_step1_coverage_tbl/DO111.error
+output= DO_autometa_step1_coverage_tbl/DO111.out
+
+mouse = 111
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO112.log
+error = DO_autometa_step1_coverage_tbl/DO112.error
+output= DO_autometa_step1_coverage_tbl/DO112.out
+
+mouse = 112
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO113.log
+error = DO_autometa_step1_coverage_tbl/DO113.error
+output= DO_autometa_step1_coverage_tbl/DO113.out
+
+mouse = 113
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO114.log
+error = DO_autometa_step1_coverage_tbl/DO114.error
+output= DO_autometa_step1_coverage_tbl/DO114.out
+
+mouse = 114
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO115.log
+error = DO_autometa_step1_coverage_tbl/DO115.error
+output= DO_autometa_step1_coverage_tbl/DO115.out
+
+mouse = 115
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO116.log
+error = DO_autometa_step1_coverage_tbl/DO116.error
+output= DO_autometa_step1_coverage_tbl/DO116.out
+
+mouse = 116
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO117.log
+error = DO_autometa_step1_coverage_tbl/DO117.error
+output= DO_autometa_step1_coverage_tbl/DO117.out
+
+mouse = 117
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO118.log
+error = DO_autometa_step1_coverage_tbl/DO118.error
+output= DO_autometa_step1_coverage_tbl/DO118.out
+
+mouse = 118
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO119.log
+error = DO_autometa_step1_coverage_tbl/DO119.error
+output= DO_autometa_step1_coverage_tbl/DO119.out
+
+mouse = 119
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO120.log
+error = DO_autometa_step1_coverage_tbl/DO120.error
+output= DO_autometa_step1_coverage_tbl/DO120.out
+
+mouse = 120
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO121.log
+error = DO_autometa_step1_coverage_tbl/DO121.error
+output= DO_autometa_step1_coverage_tbl/DO121.out
+
+mouse = 121
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO122.log
+error = DO_autometa_step1_coverage_tbl/DO122.error
+output= DO_autometa_step1_coverage_tbl/DO122.out
+
+mouse = 122
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO123.log
+error = DO_autometa_step1_coverage_tbl/DO123.error
+output= DO_autometa_step1_coverage_tbl/DO123.out
+
+mouse = 123
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO124.log
+error = DO_autometa_step1_coverage_tbl/DO124.error
+output= DO_autometa_step1_coverage_tbl/DO124.out
+
+mouse = 124
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO125.log
+error = DO_autometa_step1_coverage_tbl/DO125.error
+output= DO_autometa_step1_coverage_tbl/DO125.out
+
+mouse = 125
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO126.log
+error = DO_autometa_step1_coverage_tbl/DO126.error
+output= DO_autometa_step1_coverage_tbl/DO126.out
+
+mouse = 126
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO127.log
+error = DO_autometa_step1_coverage_tbl/DO127.error
+output= DO_autometa_step1_coverage_tbl/DO127.out
+
+mouse = 127
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO128.log
+error = DO_autometa_step1_coverage_tbl/DO128.error
+output= DO_autometa_step1_coverage_tbl/DO128.out
+
+mouse = 128
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO129.log
+error = DO_autometa_step1_coverage_tbl/DO129.error
+output= DO_autometa_step1_coverage_tbl/DO129.out
+
+mouse = 129
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO130.log
+error = DO_autometa_step1_coverage_tbl/DO130.error
+output= DO_autometa_step1_coverage_tbl/DO130.out
+
+mouse = 130
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO131.log
+error = DO_autometa_step1_coverage_tbl/DO131.error
+output= DO_autometa_step1_coverage_tbl/DO131.out
+
+mouse = 131
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO132.log
+error = DO_autometa_step1_coverage_tbl/DO132.error
+output= DO_autometa_step1_coverage_tbl/DO132.out
+
+mouse = 132
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO133.log
+error = DO_autometa_step1_coverage_tbl/DO133.error
+output= DO_autometa_step1_coverage_tbl/DO133.out
+
+mouse = 133
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO134.log
+error = DO_autometa_step1_coverage_tbl/DO134.error
+output= DO_autometa_step1_coverage_tbl/DO134.out
+
+mouse = 134
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO135.log
+error = DO_autometa_step1_coverage_tbl/DO135.error
+output= DO_autometa_step1_coverage_tbl/DO135.out
+
+mouse = 135
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO136.log
+error = DO_autometa_step1_coverage_tbl/DO136.error
+output= DO_autometa_step1_coverage_tbl/DO136.out
+
+mouse = 136
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO137.log
+error = DO_autometa_step1_coverage_tbl/DO137.error
+output= DO_autometa_step1_coverage_tbl/DO137.out
+
+mouse = 137
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO138.log
+error = DO_autometa_step1_coverage_tbl/DO138.error
+output= DO_autometa_step1_coverage_tbl/DO138.out
+
+mouse = 138
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO139.log
+error = DO_autometa_step1_coverage_tbl/DO139.error
+output= DO_autometa_step1_coverage_tbl/DO139.out
+
+mouse = 139
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO140.log
+error = DO_autometa_step1_coverage_tbl/DO140.error
+output= DO_autometa_step1_coverage_tbl/DO140.out
+
+mouse = 140
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO141.log
+error = DO_autometa_step1_coverage_tbl/DO141.error
+output= DO_autometa_step1_coverage_tbl/DO141.out
+
+mouse = 141
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO142.log
+error = DO_autometa_step1_coverage_tbl/DO142.error
+output= DO_autometa_step1_coverage_tbl/DO142.out
+
+mouse = 142
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO143.log
+error = DO_autometa_step1_coverage_tbl/DO143.error
+output= DO_autometa_step1_coverage_tbl/DO143.out
+
+mouse = 143
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO144.log
+error = DO_autometa_step1_coverage_tbl/DO144.error
+output= DO_autometa_step1_coverage_tbl/DO144.out
+
+mouse = 144
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO145.log
+error = DO_autometa_step1_coverage_tbl/DO145.error
+output= DO_autometa_step1_coverage_tbl/DO145.out
+
+mouse = 145
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO146.log
+error = DO_autometa_step1_coverage_tbl/DO146.error
+output= DO_autometa_step1_coverage_tbl/DO146.out
+
+mouse = 146
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO147.log
+error = DO_autometa_step1_coverage_tbl/DO147.error
+output= DO_autometa_step1_coverage_tbl/DO147.out
+
+mouse = 147
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO148.log
+error = DO_autometa_step1_coverage_tbl/DO148.error
+output= DO_autometa_step1_coverage_tbl/DO148.out
+
+mouse = 148
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO149.log
+error = DO_autometa_step1_coverage_tbl/DO149.error
+output= DO_autometa_step1_coverage_tbl/DO149.out
+
+mouse = 149
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO150.log
+error = DO_autometa_step1_coverage_tbl/DO150.error
+output= DO_autometa_step1_coverage_tbl/DO150.out
+
+mouse = 150
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO151.log
+error = DO_autometa_step1_coverage_tbl/DO151.error
+output= DO_autometa_step1_coverage_tbl/DO151.out
+
+mouse = 151
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO152.log
+error = DO_autometa_step1_coverage_tbl/DO152.error
+output= DO_autometa_step1_coverage_tbl/DO152.out
+
+mouse = 152
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO153.log
+error = DO_autometa_step1_coverage_tbl/DO153.error
+output= DO_autometa_step1_coverage_tbl/DO153.out
+
+mouse = 153
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO154.log
+error = DO_autometa_step1_coverage_tbl/DO154.error
+output= DO_autometa_step1_coverage_tbl/DO154.out
+
+mouse = 154
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO155.log
+error = DO_autometa_step1_coverage_tbl/DO155.error
+output= DO_autometa_step1_coverage_tbl/DO155.out
+
+mouse = 155
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO156.log
+error = DO_autometa_step1_coverage_tbl/DO156.error
+output= DO_autometa_step1_coverage_tbl/DO156.out
+
+mouse = 156
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO157.log
+error = DO_autometa_step1_coverage_tbl/DO157.error
+output= DO_autometa_step1_coverage_tbl/DO157.out
+
+mouse = 157
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO158.log
+error = DO_autometa_step1_coverage_tbl/DO158.error
+output= DO_autometa_step1_coverage_tbl/DO158.out
+
+mouse = 158
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO159.log
+error = DO_autometa_step1_coverage_tbl/DO159.error
+output= DO_autometa_step1_coverage_tbl/DO159.out
+
+mouse = 159
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO160.log
+error = DO_autometa_step1_coverage_tbl/DO160.error
+output= DO_autometa_step1_coverage_tbl/DO160.out
+
+mouse = 160
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO161.log
+error = DO_autometa_step1_coverage_tbl/DO161.error
+output= DO_autometa_step1_coverage_tbl/DO161.out
+
+mouse = 161
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO162.log
+error = DO_autometa_step1_coverage_tbl/DO162.error
+output= DO_autometa_step1_coverage_tbl/DO162.out
+
+mouse = 162
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO163.log
+error = DO_autometa_step1_coverage_tbl/DO163.error
+output= DO_autometa_step1_coverage_tbl/DO163.out
+
+mouse = 163
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO164.log
+error = DO_autometa_step1_coverage_tbl/DO164.error
+output= DO_autometa_step1_coverage_tbl/DO164.out
+
+mouse = 164
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO165.log
+error = DO_autometa_step1_coverage_tbl/DO165.error
+output= DO_autometa_step1_coverage_tbl/DO165.out
+
+mouse = 165
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO166.log
+error = DO_autometa_step1_coverage_tbl/DO166.error
+output= DO_autometa_step1_coverage_tbl/DO166.out
+
+mouse = 166
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO167.log
+error = DO_autometa_step1_coverage_tbl/DO167.error
+output= DO_autometa_step1_coverage_tbl/DO167.out
+
+mouse = 167
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO168.log
+error = DO_autometa_step1_coverage_tbl/DO168.error
+output= DO_autometa_step1_coverage_tbl/DO168.out
+
+mouse = 168
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO169.log
+error = DO_autometa_step1_coverage_tbl/DO169.error
+output= DO_autometa_step1_coverage_tbl/DO169.out
+
+mouse = 169
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO170.log
+error = DO_autometa_step1_coverage_tbl/DO170.error
+output= DO_autometa_step1_coverage_tbl/DO170.out
+
+mouse = 170
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO171.log
+error = DO_autometa_step1_coverage_tbl/DO171.error
+output= DO_autometa_step1_coverage_tbl/DO171.out
+
+mouse = 171
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO172.log
+error = DO_autometa_step1_coverage_tbl/DO172.error
+output= DO_autometa_step1_coverage_tbl/DO172.out
+
+mouse = 172
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO173.log
+error = DO_autometa_step1_coverage_tbl/DO173.error
+output= DO_autometa_step1_coverage_tbl/DO173.out
+
+mouse = 173
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO174.log
+error = DO_autometa_step1_coverage_tbl/DO174.error
+output= DO_autometa_step1_coverage_tbl/DO174.out
+
+mouse = 174
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO175.log
+error = DO_autometa_step1_coverage_tbl/DO175.error
+output= DO_autometa_step1_coverage_tbl/DO175.out
+
+mouse = 175
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO176.log
+error = DO_autometa_step1_coverage_tbl/DO176.error
+output= DO_autometa_step1_coverage_tbl/DO176.out
+
+mouse = 176
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO177.log
+error = DO_autometa_step1_coverage_tbl/DO177.error
+output= DO_autometa_step1_coverage_tbl/DO177.out
+
+mouse = 177
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO178.log
+error = DO_autometa_step1_coverage_tbl/DO178.error
+output= DO_autometa_step1_coverage_tbl/DO178.out
+
+mouse = 178
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO179.log
+error = DO_autometa_step1_coverage_tbl/DO179.error
+output= DO_autometa_step1_coverage_tbl/DO179.out
+
+mouse = 179
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO180.log
+error = DO_autometa_step1_coverage_tbl/DO180.error
+output= DO_autometa_step1_coverage_tbl/DO180.out
+
+mouse = 180
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO181.log
+error = DO_autometa_step1_coverage_tbl/DO181.error
+output= DO_autometa_step1_coverage_tbl/DO181.out
+
+mouse = 181
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO182.log
+error = DO_autometa_step1_coverage_tbl/DO182.error
+output= DO_autometa_step1_coverage_tbl/DO182.out
+
+mouse = 182
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO183.log
+error = DO_autometa_step1_coverage_tbl/DO183.error
+output= DO_autometa_step1_coverage_tbl/DO183.out
+
+mouse = 183
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO184.log
+error = DO_autometa_step1_coverage_tbl/DO184.error
+output= DO_autometa_step1_coverage_tbl/DO184.out
+
+mouse = 184
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO185.log
+error = DO_autometa_step1_coverage_tbl/DO185.error
+output= DO_autometa_step1_coverage_tbl/DO185.out
+
+mouse = 185
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO186.log
+error = DO_autometa_step1_coverage_tbl/DO186.error
+output= DO_autometa_step1_coverage_tbl/DO186.out
+
+mouse = 186
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO187.log
+error = DO_autometa_step1_coverage_tbl/DO187.error
+output= DO_autometa_step1_coverage_tbl/DO187.out
+
+mouse = 187
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO188.log
+error = DO_autometa_step1_coverage_tbl/DO188.error
+output= DO_autometa_step1_coverage_tbl/DO188.out
+
+mouse = 188
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO189.log
+error = DO_autometa_step1_coverage_tbl/DO189.error
+output= DO_autometa_step1_coverage_tbl/DO189.out
+
+mouse = 189
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO190.log
+error = DO_autometa_step1_coverage_tbl/DO190.error
+output= DO_autometa_step1_coverage_tbl/DO190.out
+
+mouse = 190
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO191.log
+error = DO_autometa_step1_coverage_tbl/DO191.error
+output= DO_autometa_step1_coverage_tbl/DO191.out
+
+mouse = 191
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO192.log
+error = DO_autometa_step1_coverage_tbl/DO192.error
+output= DO_autometa_step1_coverage_tbl/DO192.out
+
+mouse = 192
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO193.log
+error = DO_autometa_step1_coverage_tbl/DO193.error
+output= DO_autometa_step1_coverage_tbl/DO193.out
+
+mouse = 193
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO194.log
+error = DO_autometa_step1_coverage_tbl/DO194.error
+output= DO_autometa_step1_coverage_tbl/DO194.out
+
+mouse = 194
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO195.log
+error = DO_autometa_step1_coverage_tbl/DO195.error
+output= DO_autometa_step1_coverage_tbl/DO195.out
+
+mouse = 195
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO196.log
+error = DO_autometa_step1_coverage_tbl/DO196.error
+output= DO_autometa_step1_coverage_tbl/DO196.out
+
+mouse = 196
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO197.log
+error = DO_autometa_step1_coverage_tbl/DO197.error
+output= DO_autometa_step1_coverage_tbl/DO197.out
+
+mouse = 197
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO198.log
+error = DO_autometa_step1_coverage_tbl/DO198.error
+output= DO_autometa_step1_coverage_tbl/DO198.out
+
+mouse = 198
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO199.log
+error = DO_autometa_step1_coverage_tbl/DO199.error
+output= DO_autometa_step1_coverage_tbl/DO199.out
+
+mouse = 199
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO200.log
+error = DO_autometa_step1_coverage_tbl/DO200.error
+output= DO_autometa_step1_coverage_tbl/DO200.out
+
+mouse = 200
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO201.log
+error = DO_autometa_step1_coverage_tbl/DO201.error
+output= DO_autometa_step1_coverage_tbl/DO201.out
+
+mouse = 201
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO202.log
+error = DO_autometa_step1_coverage_tbl/DO202.error
+output= DO_autometa_step1_coverage_tbl/DO202.out
+
+mouse = 202
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO203.log
+error = DO_autometa_step1_coverage_tbl/DO203.error
+output= DO_autometa_step1_coverage_tbl/DO203.out
+
+mouse = 203
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO204.log
+error = DO_autometa_step1_coverage_tbl/DO204.error
+output= DO_autometa_step1_coverage_tbl/DO204.out
+
+mouse = 204
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO205.log
+error = DO_autometa_step1_coverage_tbl/DO205.error
+output= DO_autometa_step1_coverage_tbl/DO205.out
+
+mouse = 205
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO206.log
+error = DO_autometa_step1_coverage_tbl/DO206.error
+output= DO_autometa_step1_coverage_tbl/DO206.out
+
+mouse = 206
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO207.log
+error = DO_autometa_step1_coverage_tbl/DO207.error
+output= DO_autometa_step1_coverage_tbl/DO207.out
+
+mouse = 207
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO208.log
+error = DO_autometa_step1_coverage_tbl/DO208.error
+output= DO_autometa_step1_coverage_tbl/DO208.out
+
+mouse = 208
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO209.log
+error = DO_autometa_step1_coverage_tbl/DO209.error
+output= DO_autometa_step1_coverage_tbl/DO209.out
+
+mouse = 209
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO210.log
+error = DO_autometa_step1_coverage_tbl/DO210.error
+output= DO_autometa_step1_coverage_tbl/DO210.out
+
+mouse = 210
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO211.log
+error = DO_autometa_step1_coverage_tbl/DO211.error
+output= DO_autometa_step1_coverage_tbl/DO211.out
+
+mouse = 211
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO212.log
+error = DO_autometa_step1_coverage_tbl/DO212.error
+output= DO_autometa_step1_coverage_tbl/DO212.out
+
+mouse = 212
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO213.log
+error = DO_autometa_step1_coverage_tbl/DO213.error
+output= DO_autometa_step1_coverage_tbl/DO213.out
+
+mouse = 213
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO214.log
+error = DO_autometa_step1_coverage_tbl/DO214.error
+output= DO_autometa_step1_coverage_tbl/DO214.out
+
+mouse = 214
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO215.log
+error = DO_autometa_step1_coverage_tbl/DO215.error
+output= DO_autometa_step1_coverage_tbl/DO215.out
+
+mouse = 215
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO216.log
+error = DO_autometa_step1_coverage_tbl/DO216.error
+output= DO_autometa_step1_coverage_tbl/DO216.out
+
+mouse = 216
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO217.log
+error = DO_autometa_step1_coverage_tbl/DO217.error
+output= DO_autometa_step1_coverage_tbl/DO217.out
+
+mouse = 217
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO218.log
+error = DO_autometa_step1_coverage_tbl/DO218.error
+output= DO_autometa_step1_coverage_tbl/DO218.out
+
+mouse = 218
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO219.log
+error = DO_autometa_step1_coverage_tbl/DO219.error
+output= DO_autometa_step1_coverage_tbl/DO219.out
+
+mouse = 219
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO220.log
+error = DO_autometa_step1_coverage_tbl/DO220.error
+output= DO_autometa_step1_coverage_tbl/DO220.out
+
+mouse = 220
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO321.log
+error = DO_autometa_step1_coverage_tbl/DO321.error
+output= DO_autometa_step1_coverage_tbl/DO321.out
+
+mouse = 321
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO322.log
+error = DO_autometa_step1_coverage_tbl/DO322.error
+output= DO_autometa_step1_coverage_tbl/DO322.out
+
+mouse = 322
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO323.log
+error = DO_autometa_step1_coverage_tbl/DO323.error
+output= DO_autometa_step1_coverage_tbl/DO323.out
+
+mouse = 323
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO324.log
+error = DO_autometa_step1_coverage_tbl/DO324.error
+output= DO_autometa_step1_coverage_tbl/DO324.out
+
+mouse = 324
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO325.log
+error = DO_autometa_step1_coverage_tbl/DO325.error
+output= DO_autometa_step1_coverage_tbl/DO325.out
+
+mouse = 325
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO326.log
+error = DO_autometa_step1_coverage_tbl/DO326.error
+output= DO_autometa_step1_coverage_tbl/DO326.out
+
+mouse = 326
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO327.log
+error = DO_autometa_step1_coverage_tbl/DO327.error
+output= DO_autometa_step1_coverage_tbl/DO327.out
+
+mouse = 327
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO328.log
+error = DO_autometa_step1_coverage_tbl/DO328.error
+output= DO_autometa_step1_coverage_tbl/DO328.out
+
+mouse = 328
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO329.log
+error = DO_autometa_step1_coverage_tbl/DO329.error
+output= DO_autometa_step1_coverage_tbl/DO329.out
+
+mouse = 329
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO330.log
+error = DO_autometa_step1_coverage_tbl/DO330.error
+output= DO_autometa_step1_coverage_tbl/DO330.out
+
+mouse = 330
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO331.log
+error = DO_autometa_step1_coverage_tbl/DO331.error
+output= DO_autometa_step1_coverage_tbl/DO331.out
+
+mouse = 331
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO332.log
+error = DO_autometa_step1_coverage_tbl/DO332.error
+output= DO_autometa_step1_coverage_tbl/DO332.out
+
+mouse = 332
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO333.log
+error = DO_autometa_step1_coverage_tbl/DO333.error
+output= DO_autometa_step1_coverage_tbl/DO333.out
+
+mouse = 333
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO334.log
+error = DO_autometa_step1_coverage_tbl/DO334.error
+output= DO_autometa_step1_coverage_tbl/DO334.out
+
+mouse = 334
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO335.log
+error = DO_autometa_step1_coverage_tbl/DO335.error
+output= DO_autometa_step1_coverage_tbl/DO335.out
+
+mouse = 335
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO336.log
+error = DO_autometa_step1_coverage_tbl/DO336.error
+output= DO_autometa_step1_coverage_tbl/DO336.out
+
+mouse = 336
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO337.log
+error = DO_autometa_step1_coverage_tbl/DO337.error
+output= DO_autometa_step1_coverage_tbl/DO337.out
+
+mouse = 337
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO338.log
+error = DO_autometa_step1_coverage_tbl/DO338.error
+output= DO_autometa_step1_coverage_tbl/DO338.out
+
+mouse = 338
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO339.log
+error = DO_autometa_step1_coverage_tbl/DO339.error
+output= DO_autometa_step1_coverage_tbl/DO339.out
+
+mouse = 339
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO340.log
+error = DO_autometa_step1_coverage_tbl/DO340.error
+output= DO_autometa_step1_coverage_tbl/DO340.out
+
+mouse = 340
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO341.log
+error = DO_autometa_step1_coverage_tbl/DO341.error
+output= DO_autometa_step1_coverage_tbl/DO341.out
+
+mouse = 341
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO342.log
+error = DO_autometa_step1_coverage_tbl/DO342.error
+output= DO_autometa_step1_coverage_tbl/DO342.out
+
+mouse = 342
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO343.log
+error = DO_autometa_step1_coverage_tbl/DO343.error
+output= DO_autometa_step1_coverage_tbl/DO343.out
+
+mouse = 343
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO344.log
+error = DO_autometa_step1_coverage_tbl/DO344.error
+output= DO_autometa_step1_coverage_tbl/DO344.out
+
+mouse = 344
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO345.log
+error = DO_autometa_step1_coverage_tbl/DO345.error
+output= DO_autometa_step1_coverage_tbl/DO345.out
+
+mouse = 345
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO346.log
+error = DO_autometa_step1_coverage_tbl/DO346.error
+output= DO_autometa_step1_coverage_tbl/DO346.out
+
+mouse = 346
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO347.log
+error = DO_autometa_step1_coverage_tbl/DO347.error
+output= DO_autometa_step1_coverage_tbl/DO347.out
+
+mouse = 347
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO348.log
+error = DO_autometa_step1_coverage_tbl/DO348.error
+output= DO_autometa_step1_coverage_tbl/DO348.out
+
+mouse = 348
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO349.log
+error = DO_autometa_step1_coverage_tbl/DO349.error
+output= DO_autometa_step1_coverage_tbl/DO349.out
+
+mouse = 349
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO350.log
+error = DO_autometa_step1_coverage_tbl/DO350.error
+output= DO_autometa_step1_coverage_tbl/DO350.out
+
+mouse = 350
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO351.log
+error = DO_autometa_step1_coverage_tbl/DO351.error
+output= DO_autometa_step1_coverage_tbl/DO351.out
+
+mouse = 351
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO352.log
+error = DO_autometa_step1_coverage_tbl/DO352.error
+output= DO_autometa_step1_coverage_tbl/DO352.out
+
+mouse = 352
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO353.log
+error = DO_autometa_step1_coverage_tbl/DO353.error
+output= DO_autometa_step1_coverage_tbl/DO353.out
+
+mouse = 353
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO354.log
+error = DO_autometa_step1_coverage_tbl/DO354.error
+output= DO_autometa_step1_coverage_tbl/DO354.out
+
+mouse = 354
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO355.log
+error = DO_autometa_step1_coverage_tbl/DO355.error
+output= DO_autometa_step1_coverage_tbl/DO355.out
+
+mouse = 355
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO356.log
+error = DO_autometa_step1_coverage_tbl/DO356.error
+output= DO_autometa_step1_coverage_tbl/DO356.out
+
+mouse = 356
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO357.log
+error = DO_autometa_step1_coverage_tbl/DO357.error
+output= DO_autometa_step1_coverage_tbl/DO357.out
+
+mouse = 357
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO358.log
+error = DO_autometa_step1_coverage_tbl/DO358.error
+output= DO_autometa_step1_coverage_tbl/DO358.out
+
+mouse = 358
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO359.log
+error = DO_autometa_step1_coverage_tbl/DO359.error
+output= DO_autometa_step1_coverage_tbl/DO359.out
+
+mouse = 359
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO360.log
+error = DO_autometa_step1_coverage_tbl/DO360.error
+output= DO_autometa_step1_coverage_tbl/DO360.out
+
+mouse = 360
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO361.log
+error = DO_autometa_step1_coverage_tbl/DO361.error
+output= DO_autometa_step1_coverage_tbl/DO361.out
+
+mouse = 361
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO362.log
+error = DO_autometa_step1_coverage_tbl/DO362.error
+output= DO_autometa_step1_coverage_tbl/DO362.out
+
+mouse = 362
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO363.log
+error = DO_autometa_step1_coverage_tbl/DO363.error
+output= DO_autometa_step1_coverage_tbl/DO363.out
+
+mouse = 363
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO364.log
+error = DO_autometa_step1_coverage_tbl/DO364.error
+output= DO_autometa_step1_coverage_tbl/DO364.out
+
+mouse = 364
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO365.log
+error = DO_autometa_step1_coverage_tbl/DO365.error
+output= DO_autometa_step1_coverage_tbl/DO365.out
+
+mouse = 365
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO366.log
+error = DO_autometa_step1_coverage_tbl/DO366.error
+output= DO_autometa_step1_coverage_tbl/DO366.out
+
+mouse = 366
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO367.log
+error = DO_autometa_step1_coverage_tbl/DO367.error
+output= DO_autometa_step1_coverage_tbl/DO367.out
+
+mouse = 367
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO368.log
+error = DO_autometa_step1_coverage_tbl/DO368.error
+output= DO_autometa_step1_coverage_tbl/DO368.out
+
+mouse = 368
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO369.log
+error = DO_autometa_step1_coverage_tbl/DO369.error
+output= DO_autometa_step1_coverage_tbl/DO369.out
+
+mouse = 369
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO370.log
+error = DO_autometa_step1_coverage_tbl/DO370.error
+output= DO_autometa_step1_coverage_tbl/DO370.out
+
+mouse = 370
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO371.log
+error = DO_autometa_step1_coverage_tbl/DO371.error
+output= DO_autometa_step1_coverage_tbl/DO371.out
+
+mouse = 371
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO372.log
+error = DO_autometa_step1_coverage_tbl/DO372.error
+output= DO_autometa_step1_coverage_tbl/DO372.out
+
+mouse = 372
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO373.log
+error = DO_autometa_step1_coverage_tbl/DO373.error
+output= DO_autometa_step1_coverage_tbl/DO373.out
+
+mouse = 373
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO374.log
+error = DO_autometa_step1_coverage_tbl/DO374.error
+output= DO_autometa_step1_coverage_tbl/DO374.out
+
+mouse = 374
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO375.log
+error = DO_autometa_step1_coverage_tbl/DO375.error
+output= DO_autometa_step1_coverage_tbl/DO375.out
+
+mouse = 375
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO376.log
+error = DO_autometa_step1_coverage_tbl/DO376.error
+output= DO_autometa_step1_coverage_tbl/DO376.out
+
+mouse = 376
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO377.log
+error = DO_autometa_step1_coverage_tbl/DO377.error
+output= DO_autometa_step1_coverage_tbl/DO377.out
+
+mouse = 377
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO378.log
+error = DO_autometa_step1_coverage_tbl/DO378.error
+output= DO_autometa_step1_coverage_tbl/DO378.out
+
+mouse = 378
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO379.log
+error = DO_autometa_step1_coverage_tbl/DO379.error
+output= DO_autometa_step1_coverage_tbl/DO379.out
+
+mouse = 379
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO380.log
+error = DO_autometa_step1_coverage_tbl/DO380.error
+output= DO_autometa_step1_coverage_tbl/DO380.out
+
+mouse = 380
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO381.log
+error = DO_autometa_step1_coverage_tbl/DO381.error
+output= DO_autometa_step1_coverage_tbl/DO381.out
+
+mouse = 381
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO382.log
+error = DO_autometa_step1_coverage_tbl/DO382.error
+output= DO_autometa_step1_coverage_tbl/DO382.out
+
+mouse = 382
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO383.log
+error = DO_autometa_step1_coverage_tbl/DO383.error
+output= DO_autometa_step1_coverage_tbl/DO383.out
+
+mouse = 383
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO384.log
+error = DO_autometa_step1_coverage_tbl/DO384.error
+output= DO_autometa_step1_coverage_tbl/DO384.out
+
+mouse = 384
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO385.log
+error = DO_autometa_step1_coverage_tbl/DO385.error
+output= DO_autometa_step1_coverage_tbl/DO385.out
+
+mouse = 385
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO386.log
+error = DO_autometa_step1_coverage_tbl/DO386.error
+output= DO_autometa_step1_coverage_tbl/DO386.out
+
+mouse = 386
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO387.log
+error = DO_autometa_step1_coverage_tbl/DO387.error
+output= DO_autometa_step1_coverage_tbl/DO387.out
+
+mouse = 387
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO388.log
+error = DO_autometa_step1_coverage_tbl/DO388.error
+output= DO_autometa_step1_coverage_tbl/DO388.out
+
+mouse = 388
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO389.log
+error = DO_autometa_step1_coverage_tbl/DO389.error
+output= DO_autometa_step1_coverage_tbl/DO389.out
+
+mouse = 389
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO390.log
+error = DO_autometa_step1_coverage_tbl/DO390.error
+output= DO_autometa_step1_coverage_tbl/DO390.out
+
+mouse = 390
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO391.log
+error = DO_autometa_step1_coverage_tbl/DO391.error
+output= DO_autometa_step1_coverage_tbl/DO391.out
+
+mouse = 391
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO392.log
+error = DO_autometa_step1_coverage_tbl/DO392.error
+output= DO_autometa_step1_coverage_tbl/DO392.out
+
+mouse = 392
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO393.log
+error = DO_autometa_step1_coverage_tbl/DO393.error
+output= DO_autometa_step1_coverage_tbl/DO393.out
+
+mouse = 393
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO394.log
+error = DO_autometa_step1_coverage_tbl/DO394.error
+output= DO_autometa_step1_coverage_tbl/DO394.out
+
+mouse = 394
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO395.log
+error = DO_autometa_step1_coverage_tbl/DO395.error
+output= DO_autometa_step1_coverage_tbl/DO395.out
+
+mouse = 395
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO396.log
+error = DO_autometa_step1_coverage_tbl/DO396.error
+output= DO_autometa_step1_coverage_tbl/DO396.out
+
+mouse = 396
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO397.log
+error = DO_autometa_step1_coverage_tbl/DO397.error
+output= DO_autometa_step1_coverage_tbl/DO397.out
+
+mouse = 397
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO398.log
+error = DO_autometa_step1_coverage_tbl/DO398.error
+output= DO_autometa_step1_coverage_tbl/DO398.out
+
+mouse = 398
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO399.log
+error = DO_autometa_step1_coverage_tbl/DO399.error
+output= DO_autometa_step1_coverage_tbl/DO399.out
+
+mouse = 399
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO400.log
+error = DO_autometa_step1_coverage_tbl/DO400.error
+output= DO_autometa_step1_coverage_tbl/DO400.out
+
+mouse = 400
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO401.log
+error = DO_autometa_step1_coverage_tbl/DO401.error
+output= DO_autometa_step1_coverage_tbl/DO401.out
+
+mouse = 401
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO402.log
+error = DO_autometa_step1_coverage_tbl/DO402.error
+output= DO_autometa_step1_coverage_tbl/DO402.out
+
+mouse = 402
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO403.log
+error = DO_autometa_step1_coverage_tbl/DO403.error
+output= DO_autometa_step1_coverage_tbl/DO403.out
+
+mouse = 403
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO404.log
+error = DO_autometa_step1_coverage_tbl/DO404.error
+output= DO_autometa_step1_coverage_tbl/DO404.out
+
+mouse = 404
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO405.log
+error = DO_autometa_step1_coverage_tbl/DO405.error
+output= DO_autometa_step1_coverage_tbl/DO405.out
+
+mouse = 405
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO406.log
+error = DO_autometa_step1_coverage_tbl/DO406.error
+output= DO_autometa_step1_coverage_tbl/DO406.out
+
+mouse = 406
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO407.log
+error = DO_autometa_step1_coverage_tbl/DO407.error
+output= DO_autometa_step1_coverage_tbl/DO407.out
+
+mouse = 407
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO408.log
+error = DO_autometa_step1_coverage_tbl/DO408.error
+output= DO_autometa_step1_coverage_tbl/DO408.out
+
+mouse = 408
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO409.log
+error = DO_autometa_step1_coverage_tbl/DO409.error
+output= DO_autometa_step1_coverage_tbl/DO409.out
+
+mouse = 409
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO410.log
+error = DO_autometa_step1_coverage_tbl/DO410.error
+output= DO_autometa_step1_coverage_tbl/DO410.out
+
+mouse = 410
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO411.log
+error = DO_autometa_step1_coverage_tbl/DO411.error
+output= DO_autometa_step1_coverage_tbl/DO411.out
+
+mouse = 411
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO412.log
+error = DO_autometa_step1_coverage_tbl/DO412.error
+output= DO_autometa_step1_coverage_tbl/DO412.out
+
+mouse = 412
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO413.log
+error = DO_autometa_step1_coverage_tbl/DO413.error
+output= DO_autometa_step1_coverage_tbl/DO413.out
+
+mouse = 413
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO414.log
+error = DO_autometa_step1_coverage_tbl/DO414.error
+output= DO_autometa_step1_coverage_tbl/DO414.out
+
+mouse = 414
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO415.log
+error = DO_autometa_step1_coverage_tbl/DO415.error
+output= DO_autometa_step1_coverage_tbl/DO415.out
+
+mouse = 415
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO416.log
+error = DO_autometa_step1_coverage_tbl/DO416.error
+output= DO_autometa_step1_coverage_tbl/DO416.out
+
+mouse = 416
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO417.log
+error = DO_autometa_step1_coverage_tbl/DO417.error
+output= DO_autometa_step1_coverage_tbl/DO417.out
+
+mouse = 417
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO418.log
+error = DO_autometa_step1_coverage_tbl/DO418.error
+output= DO_autometa_step1_coverage_tbl/DO418.out
+
+mouse = 418
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO419.log
+error = DO_autometa_step1_coverage_tbl/DO419.error
+output= DO_autometa_step1_coverage_tbl/DO419.out
+
+mouse = 419
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
+log = DO_autometa_step1_coverage_tbl/DO420.log
+error = DO_autometa_step1_coverage_tbl/DO420.error
+output= DO_autometa_step1_coverage_tbl/DO420.out
+
+mouse = 420
+
+request_memory = 100GB
+request_disk = 75GB
+request_cpus = 8
+
+queue
+
+
