@@ -4,7 +4,7 @@
 
 ### **Step 1: Raw reads quality control and trimming (via Trimmomatic)**
 - Trimmomatic is a Java based tool: http://www.usadellab.org/cms/?page=trimmomatic
-- CHTC job scripts example: `raw_reads_trimming.sh` and `raw_reads_trimming.sub`
+- CHTC job scripts example: `script_chtc/raw_reads_trimming.sh` and `script_chtc/raw_reads_trimming.sub`
 - Input data are R1/R2 fastq reads (if the libraries are run in seperated lanes, trimming them seperately and concat them later): `$1_L001_R[12]_00[1234].fastq.gz`
 - Output files are concat paired and unpaired fastq data (replace $1 with unique sample ID):
     * `$1_R[12]_trimmomaticTrimmed_paired.fastq.gz`
@@ -12,7 +12,7 @@
 
 ### **Step 2: Metagenomic assembly (via metaSPAdes)**
 - metaSPAdes manual: http://cab.spbu.ru/files/release3.12.0/manual.html
-- CHTC job scripts example: `assembly_metaspades.sh` and `assembly_metaspades.sub`
+- CHTC job scripts example: `script_chtc/assembly_metaspades.sh` and `script_chtc/assembly_metaspades.sub`
 - Parameters used are: `metaspades.py -k 21,33,55,77 --pe1-1 R1.fq --pe1-2 R2.fq`
 - Contigs shorter than 500bp were discarded from further processing. All original PE reads in the sample were aligned to all assembled contigs longer than 500bp by Bowtie2, default parameters to calculate assembly rate in each sample.
 - Detailed assembly quality evaluation can be done via quast: http://quast.bioinf.spbau.ru/manual.html
@@ -79,11 +79,11 @@ diamond-linux64-0.9.23/diamond blastx -d nr \
 ### **Step 1: Contigs Coverage Calculation**
 - After metaSPAdes assembly, each sample, filtered contigs fasta file is generated: `DOXXX.500bp.contigs.fa`
 - Align metagenomic reads within their library to contigs, and calculate coverage.
-- CHTC job scripts example: `binning_coverage_tbl.sh` and `binning_coverage_tbl.sub`
+- CHTC job scripts example: `script_chtc/binning_coverage_tbl.sh` and `script_chtc/binning_coverage_tbl.sub`
 
 ### **Step 2: Autometa binning**
 - Using Docker image (ijmiller2/autometa:docker_patch) run on CHTC
-- CHTC job scripts example: `binning_autometa_docker.sh` and `binning_autometa_docker.sub`
+- CHTC job scripts example: `script_chtc/binning_autometa_docker.sh` and `script_chtc/binning_autometa_docker.sub`
 
 ### **Step 3: Bins quantification**
 - Quantification via Bowtie2/Bedtool and in-house scrip (the script designed for one PE samples mapped to multiple bins):
@@ -91,7 +91,7 @@ diamond-linux64-0.9.23/diamond blastx -d nr \
     * `Python/fasta_length_table.py`
     * `Python/contig_coverage_from_bedtools.py`
 
-- CHTC job scripts example: `binning_bins_quantification.sh` and `binning_bins_quantification.sub`
+- CHTC job scripts example: `script_chtc/binning_bins_quantification.sh` and `script_chtc/binning_bins_quantification.sub`
 
 ### **Step 4: CheckM for bins quality evaluation**
 - CheckM using a broader set of marker genes specific to the position of a genome within a reference genome tree and information about the collection of these genes: https://github.com/Ecogenomics/CheckM/wiki
