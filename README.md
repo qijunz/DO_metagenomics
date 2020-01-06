@@ -81,5 +81,18 @@ diamond-linux64-0.9.23/diamond blastx -d nr \
 - Align metagenomic reads within their library to contigs, and calculate coverage.
 - CHTC job scripts example: `binning_coverage_tbl.sh` and `binning_coverage_tbl.sub`
 
+### **Step 2: Autometa binning**
+- Using Docker image (ijmiller2/autometa:docker_patch) run on CHTC
+- CHTC job scripts example: `binning_autometa_docker.sh` and `binning_autometa_docker.sub`
 
+### **Step 3: Bins quantification**
+- Quantification via Bowtie2/Bedtool and in-house scrip (the script designed for one PE samples mapped to multiple bins):
+    * `Python/bins_coverage_quantification.py` (main script)
+    * `Python/fasta_length_table.py`
+    * `Python/contig_coverage_from_bedtools.py`
+
+- CHTC job scripts example: `binning_bins_quantification.sh` and `binning_bins_quantification.sub`
+
+### **Step 4: CheckM for bins quality evaluation**
+- CheckM using a broader set of marker genes specific to the position of a genome within a reference genome tree and information about the collection of these genes: https://github.com/Ecogenomics/CheckM/wiki
 

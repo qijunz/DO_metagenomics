@@ -1,0 +1,3602 @@
+universe = vanilla
+
+executable = binning_bins_quantification.sh
+arguments = $(mouse) $(bin)
+
+
+#REQUIREMENTS:
+
+Requirements = (OpSys == "LINUX") && (OpSysMajorVer == 7) && (Target.HasGluster == true)
+
+
+transfer_input_files = PROG_instl/samtools_1.9.tar.gz, PROG_instl/bowtie2-2.3.4-linux-x86_64.zip,PROG_instl/bedtools2-2.28.0.tar.gz, PROG_instl/python-3.6.7.tar.gz, script/bins_coverage_quantification.py, script/contig_coverage_from_bedtools.py, script/fasta_length_table.py
+
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO370_DBSCAN_round1_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO370_DBSCAN_round1_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO370_DBSCAN_round1_3.out
+
+
+mouse = 021
+bin = DO370_DBSCAN_round1_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO407_DBSCAN_round4_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO407_DBSCAN_round4_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO407_DBSCAN_round4_1.out
+
+
+mouse = 021
+bin = DO407_DBSCAN_round4_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO395_DBSCAN_round1_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO395_DBSCAN_round1_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO395_DBSCAN_round1_2.out
+
+
+mouse = 021
+bin = DO395_DBSCAN_round1_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO112_DBSCAN_round2_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO112_DBSCAN_round2_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO112_DBSCAN_round2_1.out
+
+
+mouse = 021
+bin = DO112_DBSCAN_round2_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO103_DBSCAN_round3_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO103_DBSCAN_round3_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO103_DBSCAN_round3_3.out
+
+
+mouse = 021
+bin = DO103_DBSCAN_round3_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO339_DBSCAN_round3_9.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO339_DBSCAN_round3_9.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO339_DBSCAN_round3_9.out
+
+
+mouse = 021
+bin = DO339_DBSCAN_round3_9
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO380_DBSCAN_round1_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO380_DBSCAN_round1_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO380_DBSCAN_round1_3.out
+
+
+mouse = 021
+bin = DO380_DBSCAN_round1_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO364_DBSCAN_round2_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO364_DBSCAN_round2_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO364_DBSCAN_round2_2.out
+
+
+mouse = 021
+bin = DO364_DBSCAN_round2_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO139_DBSCAN_round2_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO139_DBSCAN_round2_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO139_DBSCAN_round2_3.out
+
+
+mouse = 021
+bin = DO139_DBSCAN_round2_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO060_DBSCAN_round2_6.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO060_DBSCAN_round2_6.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO060_DBSCAN_round2_6.out
+
+
+mouse = 021
+bin = DO060_DBSCAN_round2_6
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO330_DBSCAN_round4_0.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO330_DBSCAN_round4_0.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO330_DBSCAN_round4_0.out
+
+
+mouse = 021
+bin = DO330_DBSCAN_round4_0
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO388_DBSCAN_round6_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO388_DBSCAN_round6_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO388_DBSCAN_round6_1.out
+
+
+mouse = 021
+bin = DO388_DBSCAN_round6_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO323_DBSCAN_round3_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO323_DBSCAN_round3_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO323_DBSCAN_round3_2.out
+
+
+mouse = 021
+bin = DO323_DBSCAN_round3_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO397_DBSCAN_round1_7.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO397_DBSCAN_round1_7.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO397_DBSCAN_round1_7.out
+
+
+mouse = 021
+bin = DO397_DBSCAN_round1_7
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO058_DBSCAN_round1_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO058_DBSCAN_round1_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO058_DBSCAN_round1_4.out
+
+
+mouse = 021
+bin = DO058_DBSCAN_round1_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round2_5.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round2_5.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round2_5.out
+
+
+mouse = 021
+bin = DO198_DBSCAN_round2_5
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO374_DBSCAN_round1_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO374_DBSCAN_round1_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO374_DBSCAN_round1_4.out
+
+
+mouse = 021
+bin = DO374_DBSCAN_round1_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO401_DBSCAN_round3_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO401_DBSCAN_round3_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO401_DBSCAN_round3_1.out
+
+
+mouse = 021
+bin = DO401_DBSCAN_round3_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO389_DBSCAN_round1_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO389_DBSCAN_round1_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO389_DBSCAN_round1_1.out
+
+
+mouse = 021
+bin = DO389_DBSCAN_round1_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO405_DBSCAN_round4_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO405_DBSCAN_round4_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO405_DBSCAN_round4_3.out
+
+
+mouse = 021
+bin = DO405_DBSCAN_round4_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO414_DBSCAN_round3_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO414_DBSCAN_round3_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO414_DBSCAN_round3_1.out
+
+
+mouse = 021
+bin = DO414_DBSCAN_round3_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO135_DBSCAN_round2_10.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO135_DBSCAN_round2_10.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO135_DBSCAN_round2_10.out
+
+
+mouse = 021
+bin = DO135_DBSCAN_round2_10
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO417_DBSCAN_round2_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO417_DBSCAN_round2_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO417_DBSCAN_round2_2.out
+
+
+mouse = 021
+bin = DO417_DBSCAN_round2_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO352_DBSCAN_round2_7.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO352_DBSCAN_round2_7.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO352_DBSCAN_round2_7.out
+
+
+mouse = 021
+bin = DO352_DBSCAN_round2_7
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO390_DBSCAN_round2_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO390_DBSCAN_round2_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO390_DBSCAN_round2_2.out
+
+
+mouse = 021
+bin = DO390_DBSCAN_round2_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO396_DBSCAN_round3_8.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO396_DBSCAN_round3_8.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO396_DBSCAN_round3_8.out
+
+
+mouse = 021
+bin = DO396_DBSCAN_round3_8
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO394_DBSCAN_round2_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO394_DBSCAN_round2_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO394_DBSCAN_round2_2.out
+
+
+mouse = 021
+bin = DO394_DBSCAN_round2_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO396_DBSCAN_round3_5.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO396_DBSCAN_round3_5.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO396_DBSCAN_round3_5.out
+
+
+mouse = 021
+bin = DO396_DBSCAN_round3_5
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO139_DBSCAN_round3_10.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO139_DBSCAN_round3_10.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO139_DBSCAN_round3_10.out
+
+
+mouse = 021
+bin = DO139_DBSCAN_round3_10
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO338_DBSCAN_round1_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO338_DBSCAN_round1_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO338_DBSCAN_round1_1.out
+
+
+mouse = 021
+bin = DO338_DBSCAN_round1_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO328_DBSCAN_round2_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO328_DBSCAN_round2_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO328_DBSCAN_round2_1.out
+
+
+mouse = 021
+bin = DO328_DBSCAN_round2_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO401_DBSCAN_round1_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO401_DBSCAN_round1_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO401_DBSCAN_round1_1.out
+
+
+mouse = 021
+bin = DO401_DBSCAN_round1_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO349_DBSCAN_round1_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO349_DBSCAN_round1_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO349_DBSCAN_round1_2.out
+
+
+mouse = 021
+bin = DO349_DBSCAN_round1_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO407_DBSCAN_round2_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO407_DBSCAN_round2_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO407_DBSCAN_round2_1.out
+
+
+mouse = 021
+bin = DO407_DBSCAN_round2_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO415_DBSCAN_round3_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO415_DBSCAN_round3_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO415_DBSCAN_round3_1.out
+
+
+mouse = 021
+bin = DO415_DBSCAN_round3_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO339_DBSCAN_round1_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO339_DBSCAN_round1_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO339_DBSCAN_round1_1.out
+
+
+mouse = 021
+bin = DO339_DBSCAN_round1_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO359_DBSCAN_round1_5.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO359_DBSCAN_round1_5.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO359_DBSCAN_round1_5.out
+
+
+mouse = 021
+bin = DO359_DBSCAN_round1_5
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO115_DBSCAN_round1_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO115_DBSCAN_round1_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO115_DBSCAN_round1_2.out
+
+
+mouse = 021
+bin = DO115_DBSCAN_round1_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO101_DBSCAN_round5_0.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO101_DBSCAN_round5_0.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO101_DBSCAN_round5_0.out
+
+
+mouse = 021
+bin = DO101_DBSCAN_round5_0
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO114_DBSCAN_round1_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO114_DBSCAN_round1_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO114_DBSCAN_round1_2.out
+
+
+mouse = 021
+bin = DO114_DBSCAN_round1_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO383_DBSCAN_round3_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO383_DBSCAN_round3_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO383_DBSCAN_round3_4.out
+
+
+mouse = 021
+bin = DO383_DBSCAN_round3_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO338_DBSCAN_round2_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO338_DBSCAN_round2_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO338_DBSCAN_round2_4.out
+
+
+mouse = 021
+bin = DO338_DBSCAN_round2_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO353_DBSCAN_round1_7.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO353_DBSCAN_round1_7.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO353_DBSCAN_round1_7.out
+
+
+mouse = 021
+bin = DO353_DBSCAN_round1_7
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO367_DBSCAN_round4_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO367_DBSCAN_round4_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO367_DBSCAN_round4_2.out
+
+
+mouse = 021
+bin = DO367_DBSCAN_round4_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO361_DBSCAN_round1_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO361_DBSCAN_round1_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO361_DBSCAN_round1_4.out
+
+
+mouse = 021
+bin = DO361_DBSCAN_round1_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO408_DBSCAN_round2_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO408_DBSCAN_round2_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO408_DBSCAN_round2_1.out
+
+
+mouse = 021
+bin = DO408_DBSCAN_round2_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO073_DBSCAN_round3_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO073_DBSCAN_round3_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO073_DBSCAN_round3_4.out
+
+
+mouse = 021
+bin = DO073_DBSCAN_round3_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO398_DBSCAN_round5_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO398_DBSCAN_round5_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO398_DBSCAN_round5_2.out
+
+
+mouse = 021
+bin = DO398_DBSCAN_round5_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO400_DBSCAN_round3_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO400_DBSCAN_round3_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO400_DBSCAN_round3_2.out
+
+
+mouse = 021
+bin = DO400_DBSCAN_round3_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO377_DBSCAN_round3_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO377_DBSCAN_round3_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO377_DBSCAN_round3_4.out
+
+
+mouse = 021
+bin = DO377_DBSCAN_round3_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO058_DBSCAN_round2_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO058_DBSCAN_round2_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO058_DBSCAN_round2_1.out
+
+
+mouse = 021
+bin = DO058_DBSCAN_round2_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO380_DBSCAN_round1_7.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO380_DBSCAN_round1_7.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO380_DBSCAN_round1_7.out
+
+
+mouse = 021
+bin = DO380_DBSCAN_round1_7
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO049_DBSCAN_round3_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO049_DBSCAN_round3_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO049_DBSCAN_round3_4.out
+
+
+mouse = 021
+bin = DO049_DBSCAN_round3_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO136_DBSCAN_round2_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO136_DBSCAN_round2_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO136_DBSCAN_round2_3.out
+
+
+mouse = 021
+bin = DO136_DBSCAN_round2_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO400_DBSCAN_round4_8.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO400_DBSCAN_round4_8.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO400_DBSCAN_round4_8.out
+
+
+mouse = 021
+bin = DO400_DBSCAN_round4_8
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO411_DBSCAN_round3_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO411_DBSCAN_round3_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO411_DBSCAN_round3_4.out
+
+
+mouse = 021
+bin = DO411_DBSCAN_round3_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO374_DBSCAN_round5_12.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO374_DBSCAN_round5_12.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO374_DBSCAN_round5_12.out
+
+
+mouse = 021
+bin = DO374_DBSCAN_round5_12
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO101_DBSCAN_round1_7.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO101_DBSCAN_round1_7.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO101_DBSCAN_round1_7.out
+
+
+mouse = 021
+bin = DO101_DBSCAN_round1_7
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO118_DBSCAN_round3_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO118_DBSCAN_round3_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO118_DBSCAN_round3_2.out
+
+
+mouse = 021
+bin = DO118_DBSCAN_round3_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO063_DBSCAN_round2_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO063_DBSCAN_round2_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO063_DBSCAN_round2_1.out
+
+
+mouse = 021
+bin = DO063_DBSCAN_round2_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO344_DBSCAN_round6_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO344_DBSCAN_round6_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO344_DBSCAN_round6_2.out
+
+
+mouse = 021
+bin = DO344_DBSCAN_round6_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO032_DBSCAN_round2_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO032_DBSCAN_round2_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO032_DBSCAN_round2_1.out
+
+
+mouse = 021
+bin = DO032_DBSCAN_round2_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO364_DBSCAN_round4_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO364_DBSCAN_round4_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO364_DBSCAN_round4_3.out
+
+
+mouse = 021
+bin = DO364_DBSCAN_round4_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO348_DBSCAN_round5_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO348_DBSCAN_round5_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO348_DBSCAN_round5_3.out
+
+
+mouse = 021
+bin = DO348_DBSCAN_round5_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO374_DBSCAN_round5_8.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO374_DBSCAN_round5_8.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO374_DBSCAN_round5_8.out
+
+
+mouse = 021
+bin = DO374_DBSCAN_round5_8
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO395_DBSCAN_round1_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO395_DBSCAN_round1_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO395_DBSCAN_round1_3.out
+
+
+mouse = 021
+bin = DO395_DBSCAN_round1_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO371_DBSCAN_round2_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO371_DBSCAN_round2_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO371_DBSCAN_round2_1.out
+
+
+mouse = 021
+bin = DO371_DBSCAN_round2_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO136_DBSCAN_round1_8.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO136_DBSCAN_round1_8.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO136_DBSCAN_round1_8.out
+
+
+mouse = 021
+bin = DO136_DBSCAN_round1_8
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO153_DBSCAN_round2_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO153_DBSCAN_round2_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO153_DBSCAN_round2_2.out
+
+
+mouse = 021
+bin = DO153_DBSCAN_round2_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO416_DBSCAN_round1_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO416_DBSCAN_round1_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO416_DBSCAN_round1_4.out
+
+
+mouse = 021
+bin = DO416_DBSCAN_round1_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO389_DBSCAN_round1_11.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO389_DBSCAN_round1_11.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO389_DBSCAN_round1_11.out
+
+
+mouse = 021
+bin = DO389_DBSCAN_round1_11
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO409_DBSCAN_round5_5.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO409_DBSCAN_round5_5.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO409_DBSCAN_round5_5.out
+
+
+mouse = 021
+bin = DO409_DBSCAN_round5_5
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO395_DBSCAN_round1_5.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO395_DBSCAN_round1_5.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO395_DBSCAN_round1_5.out
+
+
+mouse = 021
+bin = DO395_DBSCAN_round1_5
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO360_DBSCAN_round2_5.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO360_DBSCAN_round2_5.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO360_DBSCAN_round2_5.out
+
+
+mouse = 021
+bin = DO360_DBSCAN_round2_5
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO339_DBSCAN_round3_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO339_DBSCAN_round3_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO339_DBSCAN_round3_2.out
+
+
+mouse = 021
+bin = DO339_DBSCAN_round3_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO114_DBSCAN_round1_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO114_DBSCAN_round1_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO114_DBSCAN_round1_4.out
+
+
+mouse = 021
+bin = DO114_DBSCAN_round1_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO410_DBSCAN_round1_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO410_DBSCAN_round1_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO410_DBSCAN_round1_3.out
+
+
+mouse = 021
+bin = DO410_DBSCAN_round1_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO356_DBSCAN_round1_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO356_DBSCAN_round1_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO356_DBSCAN_round1_4.out
+
+
+mouse = 021
+bin = DO356_DBSCAN_round1_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO390_DBSCAN_round4_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO390_DBSCAN_round4_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO390_DBSCAN_round4_2.out
+
+
+mouse = 021
+bin = DO390_DBSCAN_round4_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO418_DBSCAN_round3_11.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO418_DBSCAN_round3_11.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO418_DBSCAN_round3_11.out
+
+
+mouse = 021
+bin = DO418_DBSCAN_round3_11
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO352_DBSCAN_round2_6.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO352_DBSCAN_round2_6.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO352_DBSCAN_round2_6.out
+
+
+mouse = 021
+bin = DO352_DBSCAN_round2_6
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO411_DBSCAN_round2_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO411_DBSCAN_round2_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO411_DBSCAN_round2_1.out
+
+
+mouse = 021
+bin = DO411_DBSCAN_round2_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO389_DBSCAN_round1_7.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO389_DBSCAN_round1_7.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO389_DBSCAN_round1_7.out
+
+
+mouse = 021
+bin = DO389_DBSCAN_round1_7
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO409_DBSCAN_round5_0.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO409_DBSCAN_round5_0.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO409_DBSCAN_round5_0.out
+
+
+mouse = 021
+bin = DO409_DBSCAN_round5_0
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO372_DBSCAN_round3_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO372_DBSCAN_round3_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO372_DBSCAN_round3_3.out
+
+
+mouse = 021
+bin = DO372_DBSCAN_round3_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO123_DBSCAN_round1_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO123_DBSCAN_round1_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO123_DBSCAN_round1_1.out
+
+
+mouse = 021
+bin = DO123_DBSCAN_round1_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO055_DBSCAN_round2_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO055_DBSCAN_round2_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO055_DBSCAN_round2_4.out
+
+
+mouse = 021
+bin = DO055_DBSCAN_round2_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO349_DBSCAN_round1_6.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO349_DBSCAN_round1_6.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO349_DBSCAN_round1_6.out
+
+
+mouse = 021
+bin = DO349_DBSCAN_round1_6
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO402_DBSCAN_round1_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO402_DBSCAN_round1_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO402_DBSCAN_round1_3.out
+
+
+mouse = 021
+bin = DO402_DBSCAN_round1_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO376_DBSCAN_round4_5.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO376_DBSCAN_round4_5.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO376_DBSCAN_round4_5.out
+
+
+mouse = 021
+bin = DO376_DBSCAN_round4_5
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO394_DBSCAN_round1_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO394_DBSCAN_round1_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO394_DBSCAN_round1_1.out
+
+
+mouse = 021
+bin = DO394_DBSCAN_round1_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round3_7.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round3_7.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round3_7.out
+
+
+mouse = 021
+bin = DO198_DBSCAN_round3_7
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO332_DBSCAN_round3_9.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO332_DBSCAN_round3_9.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO332_DBSCAN_round3_9.out
+
+
+mouse = 021
+bin = DO332_DBSCAN_round3_9
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO386_DBSCAN_round4_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO386_DBSCAN_round4_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO386_DBSCAN_round4_3.out
+
+
+mouse = 021
+bin = DO386_DBSCAN_round4_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO406_DBSCAN_round4_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO406_DBSCAN_round4_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO406_DBSCAN_round4_1.out
+
+
+mouse = 021
+bin = DO406_DBSCAN_round4_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO342_DBSCAN_round2_7.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO342_DBSCAN_round2_7.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO342_DBSCAN_round2_7.out
+
+
+mouse = 021
+bin = DO342_DBSCAN_round2_7
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO108_DBSCAN_round7_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO108_DBSCAN_round7_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO108_DBSCAN_round7_2.out
+
+
+mouse = 021
+bin = DO108_DBSCAN_round7_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO325_DBSCAN_round2_6.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO325_DBSCAN_round2_6.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO325_DBSCAN_round2_6.out
+
+
+mouse = 021
+bin = DO325_DBSCAN_round2_6
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO364_DBSCAN_round4_0.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO364_DBSCAN_round4_0.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO364_DBSCAN_round4_0.out
+
+
+mouse = 021
+bin = DO364_DBSCAN_round4_0
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO349_DBSCAN_round2_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO349_DBSCAN_round2_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO349_DBSCAN_round2_2.out
+
+
+mouse = 021
+bin = DO349_DBSCAN_round2_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round3_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round3_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round3_3.out
+
+
+mouse = 021
+bin = DO198_DBSCAN_round3_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO380_DBSCAN_round3_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO380_DBSCAN_round3_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO380_DBSCAN_round3_1.out
+
+
+mouse = 021
+bin = DO380_DBSCAN_round3_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO394_DBSCAN_round6_0.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO394_DBSCAN_round6_0.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO394_DBSCAN_round6_0.out
+
+
+mouse = 021
+bin = DO394_DBSCAN_round6_0
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO135_DBSCAN_round3_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO135_DBSCAN_round3_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO135_DBSCAN_round3_2.out
+
+
+mouse = 021
+bin = DO135_DBSCAN_round3_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO326_DBSCAN_round4_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO326_DBSCAN_round4_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO326_DBSCAN_round4_4.out
+
+
+mouse = 021
+bin = DO326_DBSCAN_round4_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO139_DBSCAN_round3_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO139_DBSCAN_round3_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO139_DBSCAN_round3_1.out
+
+
+mouse = 021
+bin = DO139_DBSCAN_round3_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO404_DBSCAN_round4_5.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO404_DBSCAN_round4_5.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO404_DBSCAN_round4_5.out
+
+
+mouse = 021
+bin = DO404_DBSCAN_round4_5
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO332_DBSCAN_round1_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO332_DBSCAN_round1_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO332_DBSCAN_round1_4.out
+
+
+mouse = 021
+bin = DO332_DBSCAN_round1_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO388_DBSCAN_round4_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO388_DBSCAN_round4_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO388_DBSCAN_round4_3.out
+
+
+mouse = 021
+bin = DO388_DBSCAN_round4_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO400_DBSCAN_round6_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO400_DBSCAN_round6_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO400_DBSCAN_round6_3.out
+
+
+mouse = 021
+bin = DO400_DBSCAN_round6_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO332_DBSCAN_round1_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO332_DBSCAN_round1_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO332_DBSCAN_round1_3.out
+
+
+mouse = 021
+bin = DO332_DBSCAN_round1_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO416_DBSCAN_round1_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO416_DBSCAN_round1_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO416_DBSCAN_round1_2.out
+
+
+mouse = 021
+bin = DO416_DBSCAN_round1_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO052_DBSCAN_round1_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO052_DBSCAN_round1_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO052_DBSCAN_round1_3.out
+
+
+mouse = 021
+bin = DO052_DBSCAN_round1_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO412_DBSCAN_round2_6.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO412_DBSCAN_round2_6.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO412_DBSCAN_round2_6.out
+
+
+mouse = 021
+bin = DO412_DBSCAN_round2_6
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO407_DBSCAN_round4_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO407_DBSCAN_round4_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO407_DBSCAN_round4_2.out
+
+
+mouse = 021
+bin = DO407_DBSCAN_round4_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO375_DBSCAN_round4_0.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO375_DBSCAN_round4_0.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO375_DBSCAN_round4_0.out
+
+
+mouse = 021
+bin = DO375_DBSCAN_round4_0
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO378_DBSCAN_round2_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO378_DBSCAN_round2_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO378_DBSCAN_round2_1.out
+
+
+mouse = 021
+bin = DO378_DBSCAN_round2_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO420_DBSCAN_round2_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO420_DBSCAN_round2_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO420_DBSCAN_round2_4.out
+
+
+mouse = 021
+bin = DO420_DBSCAN_round2_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO108_DBSCAN_round6_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO108_DBSCAN_round6_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO108_DBSCAN_round6_4.out
+
+
+mouse = 021
+bin = DO108_DBSCAN_round6_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO102_DBSCAN_round4_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO102_DBSCAN_round4_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO102_DBSCAN_round4_3.out
+
+
+mouse = 021
+bin = DO102_DBSCAN_round4_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO365_DBSCAN_round2_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO365_DBSCAN_round2_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO365_DBSCAN_round2_3.out
+
+
+mouse = 021
+bin = DO365_DBSCAN_round2_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO338_DBSCAN_round4_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO338_DBSCAN_round4_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO338_DBSCAN_round4_2.out
+
+
+mouse = 021
+bin = DO338_DBSCAN_round4_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO329_DBSCAN_round3_5.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO329_DBSCAN_round3_5.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO329_DBSCAN_round3_5.out
+
+
+mouse = 021
+bin = DO329_DBSCAN_round3_5
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO394_DBSCAN_round4_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO394_DBSCAN_round4_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO394_DBSCAN_round4_1.out
+
+
+mouse = 021
+bin = DO394_DBSCAN_round4_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO395_DBSCAN_round1_10.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO395_DBSCAN_round1_10.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO395_DBSCAN_round1_10.out
+
+
+mouse = 021
+bin = DO395_DBSCAN_round1_10
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO395_DBSCAN_round2_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO395_DBSCAN_round2_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO395_DBSCAN_round2_2.out
+
+
+mouse = 021
+bin = DO395_DBSCAN_round2_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO044_DBSCAN_round1_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO044_DBSCAN_round1_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO044_DBSCAN_round1_1.out
+
+
+mouse = 021
+bin = DO044_DBSCAN_round1_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO387_DBSCAN_round6_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO387_DBSCAN_round6_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO387_DBSCAN_round6_1.out
+
+
+mouse = 021
+bin = DO387_DBSCAN_round6_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO069_DBSCAN_round5_0.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO069_DBSCAN_round5_0.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO069_DBSCAN_round5_0.out
+
+
+mouse = 021
+bin = DO069_DBSCAN_round5_0
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO070_DBSCAN_round5_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO070_DBSCAN_round5_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO070_DBSCAN_round5_3.out
+
+
+mouse = 021
+bin = DO070_DBSCAN_round5_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO352_DBSCAN_round7_6.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO352_DBSCAN_round7_6.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO352_DBSCAN_round7_6.out
+
+
+mouse = 021
+bin = DO352_DBSCAN_round7_6
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO099_DBSCAN_round3_0.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO099_DBSCAN_round3_0.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO099_DBSCAN_round3_0.out
+
+
+mouse = 021
+bin = DO099_DBSCAN_round3_0
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO097_DBSCAN_round5_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO097_DBSCAN_round5_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO097_DBSCAN_round5_3.out
+
+
+mouse = 021
+bin = DO097_DBSCAN_round5_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO112_DBSCAN_round3_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO112_DBSCAN_round3_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO112_DBSCAN_round3_2.out
+
+
+mouse = 021
+bin = DO112_DBSCAN_round3_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO078_DBSCAN_round4_0.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO078_DBSCAN_round4_0.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO078_DBSCAN_round4_0.out
+
+
+mouse = 021
+bin = DO078_DBSCAN_round4_0
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO352_DBSCAN_round4_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO352_DBSCAN_round4_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO352_DBSCAN_round4_2.out
+
+
+mouse = 021
+bin = DO352_DBSCAN_round4_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO349_DBSCAN_round1_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO349_DBSCAN_round1_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO349_DBSCAN_round1_3.out
+
+
+mouse = 021
+bin = DO349_DBSCAN_round1_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO038_DBSCAN_round2_11.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO038_DBSCAN_round2_11.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO038_DBSCAN_round2_11.out
+
+
+mouse = 021
+bin = DO038_DBSCAN_round2_11
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO025_DBSCAN_round4_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO025_DBSCAN_round4_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO025_DBSCAN_round4_4.out
+
+
+mouse = 021
+bin = DO025_DBSCAN_round4_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO091_DBSCAN_round1_5.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO091_DBSCAN_round1_5.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO091_DBSCAN_round1_5.out
+
+
+mouse = 021
+bin = DO091_DBSCAN_round1_5
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO394_DBSCAN_round4_13.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO394_DBSCAN_round4_13.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO394_DBSCAN_round4_13.out
+
+
+mouse = 021
+bin = DO394_DBSCAN_round4_13
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO418_DBSCAN_round2_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO418_DBSCAN_round2_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO418_DBSCAN_round2_1.out
+
+
+mouse = 021
+bin = DO418_DBSCAN_round2_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO027_DBSCAN_round1_5.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO027_DBSCAN_round1_5.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO027_DBSCAN_round1_5.out
+
+
+mouse = 021
+bin = DO027_DBSCAN_round1_5
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO411_DBSCAN_round3_6.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO411_DBSCAN_round3_6.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO411_DBSCAN_round3_6.out
+
+
+mouse = 021
+bin = DO411_DBSCAN_round3_6
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO050_DBSCAN_round5_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO050_DBSCAN_round5_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO050_DBSCAN_round5_1.out
+
+
+mouse = 021
+bin = DO050_DBSCAN_round5_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO408_DBSCAN_round4_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO408_DBSCAN_round4_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO408_DBSCAN_round4_2.out
+
+
+mouse = 021
+bin = DO408_DBSCAN_round4_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO360_DBSCAN_round4_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO360_DBSCAN_round4_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO360_DBSCAN_round4_2.out
+
+
+mouse = 021
+bin = DO360_DBSCAN_round4_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO336_DBSCAN_round6_7.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO336_DBSCAN_round6_7.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO336_DBSCAN_round6_7.out
+
+
+mouse = 021
+bin = DO336_DBSCAN_round6_7
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO383_DBSCAN_round3_6.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO383_DBSCAN_round3_6.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO383_DBSCAN_round3_6.out
+
+
+mouse = 021
+bin = DO383_DBSCAN_round3_6
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO352_DBSCAN_round7_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO352_DBSCAN_round7_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO352_DBSCAN_round7_4.out
+
+
+mouse = 021
+bin = DO352_DBSCAN_round7_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO416_DBSCAN_round3_0.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO416_DBSCAN_round3_0.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO416_DBSCAN_round3_0.out
+
+
+mouse = 021
+bin = DO416_DBSCAN_round3_0
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO322_DBSCAN_round2_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO322_DBSCAN_round2_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO322_DBSCAN_round2_1.out
+
+
+mouse = 021
+bin = DO322_DBSCAN_round2_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO370_DBSCAN_round4_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO370_DBSCAN_round4_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO370_DBSCAN_round4_4.out
+
+
+mouse = 021
+bin = DO370_DBSCAN_round4_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO415_DBSCAN_round6_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO415_DBSCAN_round6_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO415_DBSCAN_round6_4.out
+
+
+mouse = 021
+bin = DO415_DBSCAN_round6_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO408_DBSCAN_round3_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO408_DBSCAN_round3_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO408_DBSCAN_round3_2.out
+
+
+mouse = 021
+bin = DO408_DBSCAN_round3_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round2_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round2_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round2_3.out
+
+
+mouse = 021
+bin = DO198_DBSCAN_round2_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO332_DBSCAN_round3_7.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO332_DBSCAN_round3_7.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO332_DBSCAN_round3_7.out
+
+
+mouse = 021
+bin = DO332_DBSCAN_round3_7
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO075_DBSCAN_round1_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO075_DBSCAN_round1_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO075_DBSCAN_round1_2.out
+
+
+mouse = 021
+bin = DO075_DBSCAN_round1_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO071_DBSCAN_round1_6.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO071_DBSCAN_round1_6.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO071_DBSCAN_round1_6.out
+
+
+mouse = 021
+bin = DO071_DBSCAN_round1_6
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO120_DBSCAN_round2_6.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO120_DBSCAN_round2_6.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO120_DBSCAN_round2_6.out
+
+
+mouse = 021
+bin = DO120_DBSCAN_round2_6
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO410_DBSCAN_round4_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO410_DBSCAN_round4_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO410_DBSCAN_round4_1.out
+
+
+mouse = 021
+bin = DO410_DBSCAN_round4_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO355_DBSCAN_round1_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO355_DBSCAN_round1_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO355_DBSCAN_round1_2.out
+
+
+mouse = 021
+bin = DO355_DBSCAN_round1_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO136_DBSCAN_round3_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO136_DBSCAN_round3_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO136_DBSCAN_round3_1.out
+
+
+mouse = 021
+bin = DO136_DBSCAN_round3_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO357_DBSCAN_round2_11.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO357_DBSCAN_round2_11.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO357_DBSCAN_round2_11.out
+
+
+mouse = 021
+bin = DO357_DBSCAN_round2_11
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO087_DBSCAN_round1_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO087_DBSCAN_round1_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO087_DBSCAN_round1_2.out
+
+
+mouse = 021
+bin = DO087_DBSCAN_round1_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO397_DBSCAN_round6_0.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO397_DBSCAN_round6_0.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO397_DBSCAN_round6_0.out
+
+
+mouse = 021
+bin = DO397_DBSCAN_round6_0
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO030_DBSCAN_round3_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO030_DBSCAN_round3_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO030_DBSCAN_round3_1.out
+
+
+mouse = 021
+bin = DO030_DBSCAN_round3_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO393_DBSCAN_round5_0.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO393_DBSCAN_round5_0.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO393_DBSCAN_round5_0.out
+
+
+mouse = 021
+bin = DO393_DBSCAN_round5_0
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO362_DBSCAN_round5_0.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO362_DBSCAN_round5_0.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO362_DBSCAN_round5_0.out
+
+
+mouse = 021
+bin = DO362_DBSCAN_round5_0
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO331_DBSCAN_round3_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO331_DBSCAN_round3_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO331_DBSCAN_round3_1.out
+
+
+mouse = 021
+bin = DO331_DBSCAN_round3_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO091_DBSCAN_round1_0.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO091_DBSCAN_round1_0.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO091_DBSCAN_round1_0.out
+
+
+mouse = 021
+bin = DO091_DBSCAN_round1_0
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO336_DBSCAN_round7_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO336_DBSCAN_round7_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO336_DBSCAN_round7_1.out
+
+
+mouse = 021
+bin = DO336_DBSCAN_round7_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO420_DBSCAN_round4_0.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO420_DBSCAN_round4_0.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO420_DBSCAN_round4_0.out
+
+
+mouse = 021
+bin = DO420_DBSCAN_round4_0
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO139_DBSCAN_round6_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO139_DBSCAN_round6_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO139_DBSCAN_round6_4.out
+
+
+mouse = 021
+bin = DO139_DBSCAN_round6_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO397_DBSCAN_round5_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO397_DBSCAN_round5_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO397_DBSCAN_round5_4.out
+
+
+mouse = 021
+bin = DO397_DBSCAN_round5_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO391_DBSCAN_round6_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO391_DBSCAN_round6_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO391_DBSCAN_round6_4.out
+
+
+mouse = 021
+bin = DO391_DBSCAN_round6_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO324_DBSCAN_round3_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO324_DBSCAN_round3_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO324_DBSCAN_round3_4.out
+
+
+mouse = 021
+bin = DO324_DBSCAN_round3_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO037_DBSCAN_round4_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO037_DBSCAN_round4_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO037_DBSCAN_round4_4.out
+
+
+mouse = 021
+bin = DO037_DBSCAN_round4_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO108_DBSCAN_round4_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO108_DBSCAN_round4_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO108_DBSCAN_round4_3.out
+
+
+mouse = 021
+bin = DO108_DBSCAN_round4_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO371_DBSCAN_round5_5.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO371_DBSCAN_round5_5.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO371_DBSCAN_round5_5.out
+
+
+mouse = 021
+bin = DO371_DBSCAN_round5_5
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO054_DBSCAN_round2_9.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO054_DBSCAN_round2_9.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO054_DBSCAN_round2_9.out
+
+
+mouse = 021
+bin = DO054_DBSCAN_round2_9
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO330_DBSCAN_round3_5.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO330_DBSCAN_round3_5.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO330_DBSCAN_round3_5.out
+
+
+mouse = 021
+bin = DO330_DBSCAN_round3_5
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO376_DBSCAN_round5_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO376_DBSCAN_round5_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO376_DBSCAN_round5_4.out
+
+
+mouse = 021
+bin = DO376_DBSCAN_round5_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO417_DBSCAN_round4_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO417_DBSCAN_round4_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO417_DBSCAN_round4_1.out
+
+
+mouse = 021
+bin = DO417_DBSCAN_round4_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO386_DBSCAN_round4_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO386_DBSCAN_round4_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO386_DBSCAN_round4_2.out
+
+
+mouse = 021
+bin = DO386_DBSCAN_round4_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO416_DBSCAN_round2_5.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO416_DBSCAN_round2_5.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO416_DBSCAN_round2_5.out
+
+
+mouse = 021
+bin = DO416_DBSCAN_round2_5
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO411_DBSCAN_round2_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO411_DBSCAN_round2_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO411_DBSCAN_round2_3.out
+
+
+mouse = 021
+bin = DO411_DBSCAN_round2_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO330_DBSCAN_round3_0.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO330_DBSCAN_round3_0.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO330_DBSCAN_round3_0.out
+
+
+mouse = 021
+bin = DO330_DBSCAN_round3_0
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO097_DBSCAN_round4_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO097_DBSCAN_round4_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO097_DBSCAN_round4_1.out
+
+
+mouse = 021
+bin = DO097_DBSCAN_round4_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO349_DBSCAN_round2_5.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO349_DBSCAN_round2_5.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO349_DBSCAN_round2_5.out
+
+
+mouse = 021
+bin = DO349_DBSCAN_round2_5
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO114_DBSCAN_round2_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO114_DBSCAN_round2_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO114_DBSCAN_round2_2.out
+
+
+mouse = 021
+bin = DO114_DBSCAN_round2_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO409_DBSCAN_round5_7.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO409_DBSCAN_round5_7.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO409_DBSCAN_round5_7.out
+
+
+mouse = 021
+bin = DO409_DBSCAN_round5_7
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round3_6.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round3_6.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round3_6.out
+
+
+mouse = 021
+bin = DO198_DBSCAN_round3_6
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO357_DBSCAN_round3_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO357_DBSCAN_round3_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO357_DBSCAN_round3_4.out
+
+
+mouse = 021
+bin = DO357_DBSCAN_round3_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO408_DBSCAN_round2_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO408_DBSCAN_round2_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO408_DBSCAN_round2_3.out
+
+
+mouse = 021
+bin = DO408_DBSCAN_round2_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round2_13.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round2_13.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round2_13.out
+
+
+mouse = 021
+bin = DO198_DBSCAN_round2_13
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO372_DBSCAN_round3_13.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO372_DBSCAN_round3_13.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO372_DBSCAN_round3_13.out
+
+
+mouse = 021
+bin = DO372_DBSCAN_round3_13
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO103_DBSCAN_round4_5.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO103_DBSCAN_round4_5.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO103_DBSCAN_round4_5.out
+
+
+mouse = 021
+bin = DO103_DBSCAN_round4_5
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round5_11.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round5_11.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round5_11.out
+
+
+mouse = 021
+bin = DO198_DBSCAN_round5_11
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO400_DBSCAN_round3_9.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO400_DBSCAN_round3_9.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO400_DBSCAN_round3_9.out
+
+
+mouse = 021
+bin = DO400_DBSCAN_round3_9
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO420_DBSCAN_round4_5.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO420_DBSCAN_round4_5.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO420_DBSCAN_round4_5.out
+
+
+mouse = 021
+bin = DO420_DBSCAN_round4_5
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round2_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round2_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round2_1.out
+
+
+mouse = 021
+bin = DO198_DBSCAN_round2_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO390_DBSCAN_round6_4.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO390_DBSCAN_round6_4.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO390_DBSCAN_round6_4.out
+
+
+mouse = 021
+bin = DO390_DBSCAN_round6_4
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO103_DBSCAN_round2_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO103_DBSCAN_round2_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO103_DBSCAN_round2_1.out
+
+
+mouse = 021
+bin = DO103_DBSCAN_round2_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round2_10.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round2_10.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round2_10.out
+
+
+mouse = 021
+bin = DO198_DBSCAN_round2_10
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO338_DBSCAN_round4_11.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO338_DBSCAN_round4_11.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO338_DBSCAN_round4_11.out
+
+
+mouse = 021
+bin = DO338_DBSCAN_round4_11
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO338_DBSCAN_round6_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO338_DBSCAN_round6_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO338_DBSCAN_round6_1.out
+
+
+mouse = 021
+bin = DO338_DBSCAN_round6_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO366_DBSCAN_round2_10.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO366_DBSCAN_round2_10.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO366_DBSCAN_round2_10.out
+
+
+mouse = 021
+bin = DO366_DBSCAN_round2_10
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO087_DBSCAN_round1_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO087_DBSCAN_round1_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO087_DBSCAN_round1_3.out
+
+
+mouse = 021
+bin = DO087_DBSCAN_round1_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round3_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round3_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round3_1.out
+
+
+mouse = 021
+bin = DO198_DBSCAN_round3_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO136_DBSCAN_round1_7.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO136_DBSCAN_round1_7.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO136_DBSCAN_round1_7.out
+
+
+mouse = 021
+bin = DO136_DBSCAN_round1_7
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO338_DBSCAN_round1_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO338_DBSCAN_round1_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO338_DBSCAN_round1_3.out
+
+
+mouse = 021
+bin = DO338_DBSCAN_round1_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO409_DBSCAN_round2_2.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO409_DBSCAN_round2_2.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO409_DBSCAN_round2_2.out
+
+
+mouse = 021
+bin = DO409_DBSCAN_round2_2
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round5_8.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round5_8.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round5_8.out
+
+
+mouse = 021
+bin = DO198_DBSCAN_round5_8
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO324_DBSCAN_round1_3.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO324_DBSCAN_round1_3.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO324_DBSCAN_round1_3.out
+
+
+mouse = 021
+bin = DO324_DBSCAN_round1_3
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO372_DBSCAN_round1_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO372_DBSCAN_round1_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO372_DBSCAN_round1_1.out
+
+
+mouse = 021
+bin = DO372_DBSCAN_round1_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO372_DBSCAN_round2_16.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO372_DBSCAN_round2_16.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO372_DBSCAN_round2_16.out
+
+
+mouse = 021
+bin = DO372_DBSCAN_round2_16
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO372_DBSCAN_round3_7.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO372_DBSCAN_round3_7.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO372_DBSCAN_round3_7.out
+
+
+mouse = 021
+bin = DO372_DBSCAN_round3_7
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO364_DBSCAN_round2_8.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO364_DBSCAN_round2_8.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO364_DBSCAN_round2_8.out
+
+
+mouse = 021
+bin = DO364_DBSCAN_round2_8
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO374_DBSCAN_round4_1.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO374_DBSCAN_round4_1.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO374_DBSCAN_round4_1.out
+
+
+mouse = 021
+bin = DO374_DBSCAN_round4_1
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO402_DBSCAN_round1_13.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO402_DBSCAN_round1_13.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO402_DBSCAN_round1_13.out
+
+
+mouse = 021
+bin = DO402_DBSCAN_round1_13
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round5_6.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round5_6.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO198_DBSCAN_round5_6.out
+
+
+mouse = 021
+bin = DO198_DBSCAN_round5_6
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO372_DBSCAN_round2_14.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO372_DBSCAN_round2_14.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO372_DBSCAN_round2_14.out
+
+
+mouse = 021
+bin = DO372_DBSCAN_round2_14
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
+log = putativeBins_coverage_byRawReads_CHTC/DO021_DO411_DBSCAN_round2_8.log
+error = putativeBins_coverage_byRawReads_CHTC/DO021_DO411_DBSCAN_round2_8.error
+output = putativeBins_coverage_byRawReads_CHTC/DO021_DO411_DBSCAN_round2_8.out
+
+
+mouse = 021
+bin = DO411_DBSCAN_round2_8
+
+
+request_memory = 2GB
+request_disk = 20GB
+request_cpus = 1
+
+queue
+
+
