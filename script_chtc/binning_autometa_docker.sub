@@ -1,0 +1,40 @@
+universe = docker
+
+docker_image = ijmiller2/autometa:docker_patch
+
+executable = binning_autometa_docker.sh
+
+#REQUIREMENTS:
+Requirements = (OpSys == "LINUX") && (OpSysMajorVer == 7) && (Target.HasGluster == true)
+
+# in `DO_contig_autometa_taxonomy_docker_input/`
+# ncbi_db/
+# DO021.500bp.contigs.fa
+# DO021_coverage.tab
+#
+# in `ncbi_db/`
+# names.dmp
+# nodes.dmp
+# nr.dmnd
+# prot.accession2taxid
+# taxdump.tar.gz
+
+# transfer_input_files = /mnt/gluster/qzhang333/DO_contig_autometa_taxonomy_docker_input
+
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+
+request_memory = 75GB
+request_disk = 200GB
+request_cpus = 16
+
+
+log = DO_autometa_step2_run_docker_DO021_IJM.log
+error = DO_autometa_step2_run_docker_DO021_IJM.error
+output= DO_autometa_step2_run_docker_DO021_IJM.out
+
+notify_user = qijun0507@gmail.com
+
+queue

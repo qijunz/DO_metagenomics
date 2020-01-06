@@ -79,5 +79,7 @@ diamond-linux64-0.9.23/diamond blastx -d nr \
 ### **Step 1: Contigs Coverage Calculation**
 - After metaSPAdes assembly, each sample, filtered contigs fasta file is generated: `DOXXX.500bp.contigs.fa`
 - Align metagenomic reads within their library to contigs, and calculate coverage.
-- CHTC job scripts example: `raw_reads_trimming.sh` and `raw_reads_trimming.sub`
+- CHTC job scripts example: `binning_coverage_tbl.sh` and `binning_coverage_tbl.sub`
+
+
 
