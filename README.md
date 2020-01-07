@@ -47,6 +47,8 @@ cd-hit-est -i 296DOmice_metaspades_mgm_genes_100bp_concat.fasta \
 
 ### **Step 5: Gene abundance estimation and quantification**
 - All PE reads in each sample were aligned to non-redundant gene catalog generated from step4 by Bowtie2.
+- RSEM (https://github.com/bli25broad/RSEM_tutorial) was used for metagene abundance estimation. 
+- CHTC job scripts example: `script_chtc/rsem_bowtie2.sh` and `script_chtc/rsem_bowtie2.sub`
 
 ### **Step 6: Gene taxonomy assignment: NCBI NR database**
 - NCBI NR database were downloaded from NCBI ftp, 2018-12-17, named `nr.gz` from : ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/
