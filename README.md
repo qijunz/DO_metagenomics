@@ -48,6 +48,7 @@ cd-hit-est -i 296DOmice_metaspades_mgm_genes_100bp_concat.fasta \
 ### **Step 5: Gene abundance estimation and quantification**
 - All PE reads in each sample were aligned to non-redundant gene catalog generated from step4 by Bowtie2.
 - RSEM (https://github.com/bli25broad/RSEM_tutorial) was used for metagene abundance estimation. 
+- CHTC job scripts example for index building: `script_chtc/rsem_bowtie2_index.sh` and `script_chtc/rsem_bowtie2_index.sub`
 - CHTC job scripts example: `script_chtc/rsem_bowtie2.sh` and `script_chtc/rsem_bowtie2.sub`
 
 ### **Step 6: Gene taxonomy assignment: NCBI NR database**
