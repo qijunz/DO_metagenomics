@@ -14,6 +14,8 @@
 ### **Step 2: Remove host DNA reads**
 - CHTC job scripts example: `script_chtc/WGS_removeHostReads.sh` and `script_chtc/WGS_removeHostReads.sub`
 - Input data are trimmed R1/R2 fastq reads: `$1_R[12]_trimmomaticTrimmed_paired.fastq.gz` (replace $1 with unique sample ID).
+- Other resuired input data: bowtie2 indexed mouse genome, [Mus_musculus_GRCm38_Rel98_bowtie2_index.tar.gz](https://uwmadison.box.com/s/e6oizmfzz84h957i8vb4z4ehg2gewxg3)
+- Reconstruction Python script: [`Python/WGS_unmapped_FASTQ_rebuiled_from_mouseDNAremovedBAM.py`](https://github.com/qijunz/DO_metagenomics/blob/master/Python/WGS_unmapped_FASTQ_rebuiled_from_mouseDNAremovedBAM.py)
 - Output files are reconstructed unmapped and mapped paired fastq reads (replace $1 with unique sample ID):
     * `$1_R[12]_trimmed_paired_mouseDNAremoved.fastq.gz`
     * `$1_R[12]_trimmed_paired_mouseDNA.fastq.gz`
