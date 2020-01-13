@@ -1,6 +1,6 @@
 universe = vanilla
 
-executable = Attie_Sorcs_WGS_trimmomatic_concatLanes.sh
+executable = raw_reads_trimming.sh
 arguments = $(lane1) $(lane2) $(lane3) $(lane4) $(lane5) $(sample)
 
 #REQUIREMENTS:

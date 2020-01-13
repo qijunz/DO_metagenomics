@@ -1,0 +1,45 @@
+universe = vanilla
+
+executable = WGS_removeHostReads.sh
+arguments = $(sample)
+
+#REQUIREMENTS:
+
+Requirements = (OpSys == "LINUX") && (OpSysMajorVer == 7) && (Target.HasGluster == true)
+
+transfer_input_files = PROG_instl/bowtie2-2.3.4-linux-x86_64.zip, \
+                       PROG_instl/samtools_1.9.tar.gz, \
+                       PROG_instl/python-3.6.7.tar.gz, \
+                       script/WGS_unmapped_FASTQ_rebuiled_from_mouseDNAremovedBAM.py
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+# append your samples here
+
+# e.g., sample1: Sorcs_KI1
+log = Remove_hostDNA/Sorcs_KI1.log
+error = Remove_hostDNA/Sorcs_KI1.error
+output = Remove_hostDNA/Sorcs_KI1.out
+
+sample = Sorcs_KI1
+
+request_memory = 16GB
+request_disk = 75GB
+request_cpus = 4
+
+queue
+
+# e.g., sample2: Sorcs_KI2
+log = Remove_hostDNA/Sorcs_KI2.log
+error = Remove_hostDNA/Sorcs_KI2.error
+output = Remove_hostDNA/Sorcs_KI2.out
+
+sample = Sorcs_KI2
+
+request_memory = 16GB
+request_disk = 75GB
+request_cpus = 4
+
+queue
+

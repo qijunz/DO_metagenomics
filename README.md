@@ -12,7 +12,11 @@
     * `$1_R[12]_trimmomaticTrimmed_unpaired.fastq.gz`
 
 ### **Step 2: Remove host DNA reads**
-
+- CHTC job scripts example: `script_chtc/WGS_removeHostReads.sh` and `script_chtc/WGS_removeHostReads.sub`
+- Input data are trimmed R1/R2 fastq reads: `$1_R[12]_trimmomaticTrimmed_paired.fastq.gz` (replace $1 with unique sample ID).
+- Output files are reconstructed unmapped and mapped paired fastq reads (replace $1 with unique sample ID):
+    * `$1_R[12]_trimmed_paired_mouseDNAremoved.fastq.gz`
+    * `$1_R[12]_trimmed_paired_mouseDNA.fastq.gz`
 
 ### **Step 3: Metagenomic assembly (via metaSPAdes)**
 - [metaSPAdes manual](http://cab.spbu.ru/files/release3.12.0/manual.html)
