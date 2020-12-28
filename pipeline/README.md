@@ -38,3 +38,8 @@
 - To get KO abundance matrix, the estimated gene TPM values were summed together and matrix is stored in main out dir with name of `$sample.gene.tpm.sum2ko.tsv`
 
 ## Notes to run pipeline on UW-Madsion CHTC
+
+- One example to run this pipeline on UW-Madsion CHTC cluster is shown in `chtc` folder: there are two files:
+    1. `metagenomic_pipeline_KO_test_HMDP0001.sh` is the executable bash script.
+    2. `metagenomic_pipeline_KO_test_HMDP0001.sub` is CHTC submit script.
+    
