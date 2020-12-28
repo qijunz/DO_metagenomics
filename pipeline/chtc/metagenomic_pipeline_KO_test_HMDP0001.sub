@@ -1,0 +1,26 @@
+universe = vanilla
+
+executable = metagenomic_pipeline_KO_test_HMDP0001.sh
+arguments = $(sample)
+
+#REQUIREMENTS:
+
+Requirements = (OpSys == "LINUX") && (OpSysMajorVer == 7) && (Target.HasCHTCStaging == true)
+
+transfer_input_files = chtc_metagenomic.tar.gz
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP001.log
+error = JLusis_HMDP/pipeline_KO/HMDP001.error
+output = JLusis_HMDP/pipeline_KO/HMDP001.out
+
+sample = HMDP001
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
