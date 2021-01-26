@@ -1,0 +1,3862 @@
+universe = vanilla
+
+executable = metagenomic_pipeline_KO_Ath-HMDP.sh
+arguments = $(sample)
+
+#REQUIREMENTS:
+
+Requirements = (OpSys == "LINUX") && (OpSysMajorVer == 7) && (Target.HasCHTCStaging == true)
+
+transfer_input_files = chtc_metagenomic.tar.gz
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+log = JLusis_HMDP/pipeline_KO/HMDP002.log
+error = JLusis_HMDP/pipeline_KO/HMDP002.error
+output = JLusis_HMDP/pipeline_KO/HMDP002.out
+
+sample = HMDP002
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP003.log
+error = JLusis_HMDP/pipeline_KO/HMDP003.error
+output = JLusis_HMDP/pipeline_KO/HMDP003.out
+
+sample = HMDP003
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP004.log
+error = JLusis_HMDP/pipeline_KO/HMDP004.error
+output = JLusis_HMDP/pipeline_KO/HMDP004.out
+
+sample = HMDP004
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP005.log
+error = JLusis_HMDP/pipeline_KO/HMDP005.error
+output = JLusis_HMDP/pipeline_KO/HMDP005.out
+
+sample = HMDP005
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP006.log
+error = JLusis_HMDP/pipeline_KO/HMDP006.error
+output = JLusis_HMDP/pipeline_KO/HMDP006.out
+
+sample = HMDP006
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP007.log
+error = JLusis_HMDP/pipeline_KO/HMDP007.error
+output = JLusis_HMDP/pipeline_KO/HMDP007.out
+
+sample = HMDP007
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP008.log
+error = JLusis_HMDP/pipeline_KO/HMDP008.error
+output = JLusis_HMDP/pipeline_KO/HMDP008.out
+
+sample = HMDP008
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP009.log
+error = JLusis_HMDP/pipeline_KO/HMDP009.error
+output = JLusis_HMDP/pipeline_KO/HMDP009.out
+
+sample = HMDP009
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP010.log
+error = JLusis_HMDP/pipeline_KO/HMDP010.error
+output = JLusis_HMDP/pipeline_KO/HMDP010.out
+
+sample = HMDP010
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP011.log
+error = JLusis_HMDP/pipeline_KO/HMDP011.error
+output = JLusis_HMDP/pipeline_KO/HMDP011.out
+
+sample = HMDP011
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP012.log
+error = JLusis_HMDP/pipeline_KO/HMDP012.error
+output = JLusis_HMDP/pipeline_KO/HMDP012.out
+
+sample = HMDP012
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP013.log
+error = JLusis_HMDP/pipeline_KO/HMDP013.error
+output = JLusis_HMDP/pipeline_KO/HMDP013.out
+
+sample = HMDP013
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP014.log
+error = JLusis_HMDP/pipeline_KO/HMDP014.error
+output = JLusis_HMDP/pipeline_KO/HMDP014.out
+
+sample = HMDP014
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP015.log
+error = JLusis_HMDP/pipeline_KO/HMDP015.error
+output = JLusis_HMDP/pipeline_KO/HMDP015.out
+
+sample = HMDP015
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP016.log
+error = JLusis_HMDP/pipeline_KO/HMDP016.error
+output = JLusis_HMDP/pipeline_KO/HMDP016.out
+
+sample = HMDP016
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP017.log
+error = JLusis_HMDP/pipeline_KO/HMDP017.error
+output = JLusis_HMDP/pipeline_KO/HMDP017.out
+
+sample = HMDP017
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP018.log
+error = JLusis_HMDP/pipeline_KO/HMDP018.error
+output = JLusis_HMDP/pipeline_KO/HMDP018.out
+
+sample = HMDP018
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP019.log
+error = JLusis_HMDP/pipeline_KO/HMDP019.error
+output = JLusis_HMDP/pipeline_KO/HMDP019.out
+
+sample = HMDP019
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP020.log
+error = JLusis_HMDP/pipeline_KO/HMDP020.error
+output = JLusis_HMDP/pipeline_KO/HMDP020.out
+
+sample = HMDP020
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP021.log
+error = JLusis_HMDP/pipeline_KO/HMDP021.error
+output = JLusis_HMDP/pipeline_KO/HMDP021.out
+
+sample = HMDP021
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP022.log
+error = JLusis_HMDP/pipeline_KO/HMDP022.error
+output = JLusis_HMDP/pipeline_KO/HMDP022.out
+
+sample = HMDP022
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP023.log
+error = JLusis_HMDP/pipeline_KO/HMDP023.error
+output = JLusis_HMDP/pipeline_KO/HMDP023.out
+
+sample = HMDP023
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP024.log
+error = JLusis_HMDP/pipeline_KO/HMDP024.error
+output = JLusis_HMDP/pipeline_KO/HMDP024.out
+
+sample = HMDP024
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP025.log
+error = JLusis_HMDP/pipeline_KO/HMDP025.error
+output = JLusis_HMDP/pipeline_KO/HMDP025.out
+
+sample = HMDP025
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP026.log
+error = JLusis_HMDP/pipeline_KO/HMDP026.error
+output = JLusis_HMDP/pipeline_KO/HMDP026.out
+
+sample = HMDP026
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP027.log
+error = JLusis_HMDP/pipeline_KO/HMDP027.error
+output = JLusis_HMDP/pipeline_KO/HMDP027.out
+
+sample = HMDP027
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP028.log
+error = JLusis_HMDP/pipeline_KO/HMDP028.error
+output = JLusis_HMDP/pipeline_KO/HMDP028.out
+
+sample = HMDP028
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP029.log
+error = JLusis_HMDP/pipeline_KO/HMDP029.error
+output = JLusis_HMDP/pipeline_KO/HMDP029.out
+
+sample = HMDP029
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP030.log
+error = JLusis_HMDP/pipeline_KO/HMDP030.error
+output = JLusis_HMDP/pipeline_KO/HMDP030.out
+
+sample = HMDP030
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP031.log
+error = JLusis_HMDP/pipeline_KO/HMDP031.error
+output = JLusis_HMDP/pipeline_KO/HMDP031.out
+
+sample = HMDP031
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP032.log
+error = JLusis_HMDP/pipeline_KO/HMDP032.error
+output = JLusis_HMDP/pipeline_KO/HMDP032.out
+
+sample = HMDP032
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP033.log
+error = JLusis_HMDP/pipeline_KO/HMDP033.error
+output = JLusis_HMDP/pipeline_KO/HMDP033.out
+
+sample = HMDP033
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP034.log
+error = JLusis_HMDP/pipeline_KO/HMDP034.error
+output = JLusis_HMDP/pipeline_KO/HMDP034.out
+
+sample = HMDP034
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP035.log
+error = JLusis_HMDP/pipeline_KO/HMDP035.error
+output = JLusis_HMDP/pipeline_KO/HMDP035.out
+
+sample = HMDP035
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP036.log
+error = JLusis_HMDP/pipeline_KO/HMDP036.error
+output = JLusis_HMDP/pipeline_KO/HMDP036.out
+
+sample = HMDP036
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP037.log
+error = JLusis_HMDP/pipeline_KO/HMDP037.error
+output = JLusis_HMDP/pipeline_KO/HMDP037.out
+
+sample = HMDP037
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP038.log
+error = JLusis_HMDP/pipeline_KO/HMDP038.error
+output = JLusis_HMDP/pipeline_KO/HMDP038.out
+
+sample = HMDP038
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP039.log
+error = JLusis_HMDP/pipeline_KO/HMDP039.error
+output = JLusis_HMDP/pipeline_KO/HMDP039.out
+
+sample = HMDP039
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP040.log
+error = JLusis_HMDP/pipeline_KO/HMDP040.error
+output = JLusis_HMDP/pipeline_KO/HMDP040.out
+
+sample = HMDP040
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP041.log
+error = JLusis_HMDP/pipeline_KO/HMDP041.error
+output = JLusis_HMDP/pipeline_KO/HMDP041.out
+
+sample = HMDP041
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP042.log
+error = JLusis_HMDP/pipeline_KO/HMDP042.error
+output = JLusis_HMDP/pipeline_KO/HMDP042.out
+
+sample = HMDP042
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP043.log
+error = JLusis_HMDP/pipeline_KO/HMDP043.error
+output = JLusis_HMDP/pipeline_KO/HMDP043.out
+
+sample = HMDP043
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP044.log
+error = JLusis_HMDP/pipeline_KO/HMDP044.error
+output = JLusis_HMDP/pipeline_KO/HMDP044.out
+
+sample = HMDP044
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP045.log
+error = JLusis_HMDP/pipeline_KO/HMDP045.error
+output = JLusis_HMDP/pipeline_KO/HMDP045.out
+
+sample = HMDP045
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP046.log
+error = JLusis_HMDP/pipeline_KO/HMDP046.error
+output = JLusis_HMDP/pipeline_KO/HMDP046.out
+
+sample = HMDP046
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP047.log
+error = JLusis_HMDP/pipeline_KO/HMDP047.error
+output = JLusis_HMDP/pipeline_KO/HMDP047.out
+
+sample = HMDP047
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP048.log
+error = JLusis_HMDP/pipeline_KO/HMDP048.error
+output = JLusis_HMDP/pipeline_KO/HMDP048.out
+
+sample = HMDP048
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP049.log
+error = JLusis_HMDP/pipeline_KO/HMDP049.error
+output = JLusis_HMDP/pipeline_KO/HMDP049.out
+
+sample = HMDP049
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP050.log
+error = JLusis_HMDP/pipeline_KO/HMDP050.error
+output = JLusis_HMDP/pipeline_KO/HMDP050.out
+
+sample = HMDP050
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP051.log
+error = JLusis_HMDP/pipeline_KO/HMDP051.error
+output = JLusis_HMDP/pipeline_KO/HMDP051.out
+
+sample = HMDP051
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP052.log
+error = JLusis_HMDP/pipeline_KO/HMDP052.error
+output = JLusis_HMDP/pipeline_KO/HMDP052.out
+
+sample = HMDP052
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP053.log
+error = JLusis_HMDP/pipeline_KO/HMDP053.error
+output = JLusis_HMDP/pipeline_KO/HMDP053.out
+
+sample = HMDP053
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP054.log
+error = JLusis_HMDP/pipeline_KO/HMDP054.error
+output = JLusis_HMDP/pipeline_KO/HMDP054.out
+
+sample = HMDP054
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP055.log
+error = JLusis_HMDP/pipeline_KO/HMDP055.error
+output = JLusis_HMDP/pipeline_KO/HMDP055.out
+
+sample = HMDP055
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP056.log
+error = JLusis_HMDP/pipeline_KO/HMDP056.error
+output = JLusis_HMDP/pipeline_KO/HMDP056.out
+
+sample = HMDP056
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP057.log
+error = JLusis_HMDP/pipeline_KO/HMDP057.error
+output = JLusis_HMDP/pipeline_KO/HMDP057.out
+
+sample = HMDP057
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP058.log
+error = JLusis_HMDP/pipeline_KO/HMDP058.error
+output = JLusis_HMDP/pipeline_KO/HMDP058.out
+
+sample = HMDP058
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP059.log
+error = JLusis_HMDP/pipeline_KO/HMDP059.error
+output = JLusis_HMDP/pipeline_KO/HMDP059.out
+
+sample = HMDP059
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP060.log
+error = JLusis_HMDP/pipeline_KO/HMDP060.error
+output = JLusis_HMDP/pipeline_KO/HMDP060.out
+
+sample = HMDP060
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP061.log
+error = JLusis_HMDP/pipeline_KO/HMDP061.error
+output = JLusis_HMDP/pipeline_KO/HMDP061.out
+
+sample = HMDP061
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP062.log
+error = JLusis_HMDP/pipeline_KO/HMDP062.error
+output = JLusis_HMDP/pipeline_KO/HMDP062.out
+
+sample = HMDP062
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP063.log
+error = JLusis_HMDP/pipeline_KO/HMDP063.error
+output = JLusis_HMDP/pipeline_KO/HMDP063.out
+
+sample = HMDP063
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP064.log
+error = JLusis_HMDP/pipeline_KO/HMDP064.error
+output = JLusis_HMDP/pipeline_KO/HMDP064.out
+
+sample = HMDP064
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP065.log
+error = JLusis_HMDP/pipeline_KO/HMDP065.error
+output = JLusis_HMDP/pipeline_KO/HMDP065.out
+
+sample = HMDP065
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP066.log
+error = JLusis_HMDP/pipeline_KO/HMDP066.error
+output = JLusis_HMDP/pipeline_KO/HMDP066.out
+
+sample = HMDP066
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP067.log
+error = JLusis_HMDP/pipeline_KO/HMDP067.error
+output = JLusis_HMDP/pipeline_KO/HMDP067.out
+
+sample = HMDP067
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP068.log
+error = JLusis_HMDP/pipeline_KO/HMDP068.error
+output = JLusis_HMDP/pipeline_KO/HMDP068.out
+
+sample = HMDP068
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP069.log
+error = JLusis_HMDP/pipeline_KO/HMDP069.error
+output = JLusis_HMDP/pipeline_KO/HMDP069.out
+
+sample = HMDP069
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP070.log
+error = JLusis_HMDP/pipeline_KO/HMDP070.error
+output = JLusis_HMDP/pipeline_KO/HMDP070.out
+
+sample = HMDP070
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP071.log
+error = JLusis_HMDP/pipeline_KO/HMDP071.error
+output = JLusis_HMDP/pipeline_KO/HMDP071.out
+
+sample = HMDP071
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP072.log
+error = JLusis_HMDP/pipeline_KO/HMDP072.error
+output = JLusis_HMDP/pipeline_KO/HMDP072.out
+
+sample = HMDP072
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP073.log
+error = JLusis_HMDP/pipeline_KO/HMDP073.error
+output = JLusis_HMDP/pipeline_KO/HMDP073.out
+
+sample = HMDP073
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP074.log
+error = JLusis_HMDP/pipeline_KO/HMDP074.error
+output = JLusis_HMDP/pipeline_KO/HMDP074.out
+
+sample = HMDP074
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP075.log
+error = JLusis_HMDP/pipeline_KO/HMDP075.error
+output = JLusis_HMDP/pipeline_KO/HMDP075.out
+
+sample = HMDP075
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP076.log
+error = JLusis_HMDP/pipeline_KO/HMDP076.error
+output = JLusis_HMDP/pipeline_KO/HMDP076.out
+
+sample = HMDP076
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP077.log
+error = JLusis_HMDP/pipeline_KO/HMDP077.error
+output = JLusis_HMDP/pipeline_KO/HMDP077.out
+
+sample = HMDP077
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP078.log
+error = JLusis_HMDP/pipeline_KO/HMDP078.error
+output = JLusis_HMDP/pipeline_KO/HMDP078.out
+
+sample = HMDP078
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP079.log
+error = JLusis_HMDP/pipeline_KO/HMDP079.error
+output = JLusis_HMDP/pipeline_KO/HMDP079.out
+
+sample = HMDP079
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP080.log
+error = JLusis_HMDP/pipeline_KO/HMDP080.error
+output = JLusis_HMDP/pipeline_KO/HMDP080.out
+
+sample = HMDP080
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP081.log
+error = JLusis_HMDP/pipeline_KO/HMDP081.error
+output = JLusis_HMDP/pipeline_KO/HMDP081.out
+
+sample = HMDP081
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP082.log
+error = JLusis_HMDP/pipeline_KO/HMDP082.error
+output = JLusis_HMDP/pipeline_KO/HMDP082.out
+
+sample = HMDP082
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP083.log
+error = JLusis_HMDP/pipeline_KO/HMDP083.error
+output = JLusis_HMDP/pipeline_KO/HMDP083.out
+
+sample = HMDP083
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP084.log
+error = JLusis_HMDP/pipeline_KO/HMDP084.error
+output = JLusis_HMDP/pipeline_KO/HMDP084.out
+
+sample = HMDP084
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP085.log
+error = JLusis_HMDP/pipeline_KO/HMDP085.error
+output = JLusis_HMDP/pipeline_KO/HMDP085.out
+
+sample = HMDP085
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP086.log
+error = JLusis_HMDP/pipeline_KO/HMDP086.error
+output = JLusis_HMDP/pipeline_KO/HMDP086.out
+
+sample = HMDP086
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP087.log
+error = JLusis_HMDP/pipeline_KO/HMDP087.error
+output = JLusis_HMDP/pipeline_KO/HMDP087.out
+
+sample = HMDP087
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP088.log
+error = JLusis_HMDP/pipeline_KO/HMDP088.error
+output = JLusis_HMDP/pipeline_KO/HMDP088.out
+
+sample = HMDP088
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP089.log
+error = JLusis_HMDP/pipeline_KO/HMDP089.error
+output = JLusis_HMDP/pipeline_KO/HMDP089.out
+
+sample = HMDP089
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP090.log
+error = JLusis_HMDP/pipeline_KO/HMDP090.error
+output = JLusis_HMDP/pipeline_KO/HMDP090.out
+
+sample = HMDP090
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP091.log
+error = JLusis_HMDP/pipeline_KO/HMDP091.error
+output = JLusis_HMDP/pipeline_KO/HMDP091.out
+
+sample = HMDP091
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP092.log
+error = JLusis_HMDP/pipeline_KO/HMDP092.error
+output = JLusis_HMDP/pipeline_KO/HMDP092.out
+
+sample = HMDP092
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP093.log
+error = JLusis_HMDP/pipeline_KO/HMDP093.error
+output = JLusis_HMDP/pipeline_KO/HMDP093.out
+
+sample = HMDP093
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP094.log
+error = JLusis_HMDP/pipeline_KO/HMDP094.error
+output = JLusis_HMDP/pipeline_KO/HMDP094.out
+
+sample = HMDP094
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP095.log
+error = JLusis_HMDP/pipeline_KO/HMDP095.error
+output = JLusis_HMDP/pipeline_KO/HMDP095.out
+
+sample = HMDP095
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP096.log
+error = JLusis_HMDP/pipeline_KO/HMDP096.error
+output = JLusis_HMDP/pipeline_KO/HMDP096.out
+
+sample = HMDP096
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP097.log
+error = JLusis_HMDP/pipeline_KO/HMDP097.error
+output = JLusis_HMDP/pipeline_KO/HMDP097.out
+
+sample = HMDP097
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP098.log
+error = JLusis_HMDP/pipeline_KO/HMDP098.error
+output = JLusis_HMDP/pipeline_KO/HMDP098.out
+
+sample = HMDP098
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP099.log
+error = JLusis_HMDP/pipeline_KO/HMDP099.error
+output = JLusis_HMDP/pipeline_KO/HMDP099.out
+
+sample = HMDP099
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP100.log
+error = JLusis_HMDP/pipeline_KO/HMDP100.error
+output = JLusis_HMDP/pipeline_KO/HMDP100.out
+
+sample = HMDP100
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP101.log
+error = JLusis_HMDP/pipeline_KO/HMDP101.error
+output = JLusis_HMDP/pipeline_KO/HMDP101.out
+
+sample = HMDP101
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP102.log
+error = JLusis_HMDP/pipeline_KO/HMDP102.error
+output = JLusis_HMDP/pipeline_KO/HMDP102.out
+
+sample = HMDP102
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP103.log
+error = JLusis_HMDP/pipeline_KO/HMDP103.error
+output = JLusis_HMDP/pipeline_KO/HMDP103.out
+
+sample = HMDP103
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP104.log
+error = JLusis_HMDP/pipeline_KO/HMDP104.error
+output = JLusis_HMDP/pipeline_KO/HMDP104.out
+
+sample = HMDP104
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP105.log
+error = JLusis_HMDP/pipeline_KO/HMDP105.error
+output = JLusis_HMDP/pipeline_KO/HMDP105.out
+
+sample = HMDP105
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP106.log
+error = JLusis_HMDP/pipeline_KO/HMDP106.error
+output = JLusis_HMDP/pipeline_KO/HMDP106.out
+
+sample = HMDP106
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP107.log
+error = JLusis_HMDP/pipeline_KO/HMDP107.error
+output = JLusis_HMDP/pipeline_KO/HMDP107.out
+
+sample = HMDP107
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP108.log
+error = JLusis_HMDP/pipeline_KO/HMDP108.error
+output = JLusis_HMDP/pipeline_KO/HMDP108.out
+
+sample = HMDP108
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP109.log
+error = JLusis_HMDP/pipeline_KO/HMDP109.error
+output = JLusis_HMDP/pipeline_KO/HMDP109.out
+
+sample = HMDP109
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP110.log
+error = JLusis_HMDP/pipeline_KO/HMDP110.error
+output = JLusis_HMDP/pipeline_KO/HMDP110.out
+
+sample = HMDP110
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP111.log
+error = JLusis_HMDP/pipeline_KO/HMDP111.error
+output = JLusis_HMDP/pipeline_KO/HMDP111.out
+
+sample = HMDP111
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP112.log
+error = JLusis_HMDP/pipeline_KO/HMDP112.error
+output = JLusis_HMDP/pipeline_KO/HMDP112.out
+
+sample = HMDP112
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP113.log
+error = JLusis_HMDP/pipeline_KO/HMDP113.error
+output = JLusis_HMDP/pipeline_KO/HMDP113.out
+
+sample = HMDP113
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP114.log
+error = JLusis_HMDP/pipeline_KO/HMDP114.error
+output = JLusis_HMDP/pipeline_KO/HMDP114.out
+
+sample = HMDP114
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP115.log
+error = JLusis_HMDP/pipeline_KO/HMDP115.error
+output = JLusis_HMDP/pipeline_KO/HMDP115.out
+
+sample = HMDP115
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP116.log
+error = JLusis_HMDP/pipeline_KO/HMDP116.error
+output = JLusis_HMDP/pipeline_KO/HMDP116.out
+
+sample = HMDP116
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP117.log
+error = JLusis_HMDP/pipeline_KO/HMDP117.error
+output = JLusis_HMDP/pipeline_KO/HMDP117.out
+
+sample = HMDP117
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP118.log
+error = JLusis_HMDP/pipeline_KO/HMDP118.error
+output = JLusis_HMDP/pipeline_KO/HMDP118.out
+
+sample = HMDP118
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP119.log
+error = JLusis_HMDP/pipeline_KO/HMDP119.error
+output = JLusis_HMDP/pipeline_KO/HMDP119.out
+
+sample = HMDP119
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP120.log
+error = JLusis_HMDP/pipeline_KO/HMDP120.error
+output = JLusis_HMDP/pipeline_KO/HMDP120.out
+
+sample = HMDP120
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP121.log
+error = JLusis_HMDP/pipeline_KO/HMDP121.error
+output = JLusis_HMDP/pipeline_KO/HMDP121.out
+
+sample = HMDP121
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP122.log
+error = JLusis_HMDP/pipeline_KO/HMDP122.error
+output = JLusis_HMDP/pipeline_KO/HMDP122.out
+
+sample = HMDP122
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP123.log
+error = JLusis_HMDP/pipeline_KO/HMDP123.error
+output = JLusis_HMDP/pipeline_KO/HMDP123.out
+
+sample = HMDP123
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP124.log
+error = JLusis_HMDP/pipeline_KO/HMDP124.error
+output = JLusis_HMDP/pipeline_KO/HMDP124.out
+
+sample = HMDP124
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP125.log
+error = JLusis_HMDP/pipeline_KO/HMDP125.error
+output = JLusis_HMDP/pipeline_KO/HMDP125.out
+
+sample = HMDP125
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP126.log
+error = JLusis_HMDP/pipeline_KO/HMDP126.error
+output = JLusis_HMDP/pipeline_KO/HMDP126.out
+
+sample = HMDP126
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP127.log
+error = JLusis_HMDP/pipeline_KO/HMDP127.error
+output = JLusis_HMDP/pipeline_KO/HMDP127.out
+
+sample = HMDP127
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP128.log
+error = JLusis_HMDP/pipeline_KO/HMDP128.error
+output = JLusis_HMDP/pipeline_KO/HMDP128.out
+
+sample = HMDP128
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP129.log
+error = JLusis_HMDP/pipeline_KO/HMDP129.error
+output = JLusis_HMDP/pipeline_KO/HMDP129.out
+
+sample = HMDP129
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP130.log
+error = JLusis_HMDP/pipeline_KO/HMDP130.error
+output = JLusis_HMDP/pipeline_KO/HMDP130.out
+
+sample = HMDP130
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP131.log
+error = JLusis_HMDP/pipeline_KO/HMDP131.error
+output = JLusis_HMDP/pipeline_KO/HMDP131.out
+
+sample = HMDP131
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP132.log
+error = JLusis_HMDP/pipeline_KO/HMDP132.error
+output = JLusis_HMDP/pipeline_KO/HMDP132.out
+
+sample = HMDP132
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP133.log
+error = JLusis_HMDP/pipeline_KO/HMDP133.error
+output = JLusis_HMDP/pipeline_KO/HMDP133.out
+
+sample = HMDP133
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP134.log
+error = JLusis_HMDP/pipeline_KO/HMDP134.error
+output = JLusis_HMDP/pipeline_KO/HMDP134.out
+
+sample = HMDP134
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP135.log
+error = JLusis_HMDP/pipeline_KO/HMDP135.error
+output = JLusis_HMDP/pipeline_KO/HMDP135.out
+
+sample = HMDP135
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP136.log
+error = JLusis_HMDP/pipeline_KO/HMDP136.error
+output = JLusis_HMDP/pipeline_KO/HMDP136.out
+
+sample = HMDP136
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP137.log
+error = JLusis_HMDP/pipeline_KO/HMDP137.error
+output = JLusis_HMDP/pipeline_KO/HMDP137.out
+
+sample = HMDP137
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP138.log
+error = JLusis_HMDP/pipeline_KO/HMDP138.error
+output = JLusis_HMDP/pipeline_KO/HMDP138.out
+
+sample = HMDP138
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP139.log
+error = JLusis_HMDP/pipeline_KO/HMDP139.error
+output = JLusis_HMDP/pipeline_KO/HMDP139.out
+
+sample = HMDP139
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP140.log
+error = JLusis_HMDP/pipeline_KO/HMDP140.error
+output = JLusis_HMDP/pipeline_KO/HMDP140.out
+
+sample = HMDP140
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP141.log
+error = JLusis_HMDP/pipeline_KO/HMDP141.error
+output = JLusis_HMDP/pipeline_KO/HMDP141.out
+
+sample = HMDP141
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP142.log
+error = JLusis_HMDP/pipeline_KO/HMDP142.error
+output = JLusis_HMDP/pipeline_KO/HMDP142.out
+
+sample = HMDP142
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP143.log
+error = JLusis_HMDP/pipeline_KO/HMDP143.error
+output = JLusis_HMDP/pipeline_KO/HMDP143.out
+
+sample = HMDP143
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP144.log
+error = JLusis_HMDP/pipeline_KO/HMDP144.error
+output = JLusis_HMDP/pipeline_KO/HMDP144.out
+
+sample = HMDP144
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP145.log
+error = JLusis_HMDP/pipeline_KO/HMDP145.error
+output = JLusis_HMDP/pipeline_KO/HMDP145.out
+
+sample = HMDP145
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP146.log
+error = JLusis_HMDP/pipeline_KO/HMDP146.error
+output = JLusis_HMDP/pipeline_KO/HMDP146.out
+
+sample = HMDP146
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP147.log
+error = JLusis_HMDP/pipeline_KO/HMDP147.error
+output = JLusis_HMDP/pipeline_KO/HMDP147.out
+
+sample = HMDP147
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP148.log
+error = JLusis_HMDP/pipeline_KO/HMDP148.error
+output = JLusis_HMDP/pipeline_KO/HMDP148.out
+
+sample = HMDP148
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP149.log
+error = JLusis_HMDP/pipeline_KO/HMDP149.error
+output = JLusis_HMDP/pipeline_KO/HMDP149.out
+
+sample = HMDP149
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP150.log
+error = JLusis_HMDP/pipeline_KO/HMDP150.error
+output = JLusis_HMDP/pipeline_KO/HMDP150.out
+
+sample = HMDP150
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP151.log
+error = JLusis_HMDP/pipeline_KO/HMDP151.error
+output = JLusis_HMDP/pipeline_KO/HMDP151.out
+
+sample = HMDP151
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP152.log
+error = JLusis_HMDP/pipeline_KO/HMDP152.error
+output = JLusis_HMDP/pipeline_KO/HMDP152.out
+
+sample = HMDP152
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP153.log
+error = JLusis_HMDP/pipeline_KO/HMDP153.error
+output = JLusis_HMDP/pipeline_KO/HMDP153.out
+
+sample = HMDP153
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP154.log
+error = JLusis_HMDP/pipeline_KO/HMDP154.error
+output = JLusis_HMDP/pipeline_KO/HMDP154.out
+
+sample = HMDP154
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP155.log
+error = JLusis_HMDP/pipeline_KO/HMDP155.error
+output = JLusis_HMDP/pipeline_KO/HMDP155.out
+
+sample = HMDP155
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP156.log
+error = JLusis_HMDP/pipeline_KO/HMDP156.error
+output = JLusis_HMDP/pipeline_KO/HMDP156.out
+
+sample = HMDP156
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP157.log
+error = JLusis_HMDP/pipeline_KO/HMDP157.error
+output = JLusis_HMDP/pipeline_KO/HMDP157.out
+
+sample = HMDP157
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP158.log
+error = JLusis_HMDP/pipeline_KO/HMDP158.error
+output = JLusis_HMDP/pipeline_KO/HMDP158.out
+
+sample = HMDP158
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP159.log
+error = JLusis_HMDP/pipeline_KO/HMDP159.error
+output = JLusis_HMDP/pipeline_KO/HMDP159.out
+
+sample = HMDP159
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP160.log
+error = JLusis_HMDP/pipeline_KO/HMDP160.error
+output = JLusis_HMDP/pipeline_KO/HMDP160.out
+
+sample = HMDP160
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP161.log
+error = JLusis_HMDP/pipeline_KO/HMDP161.error
+output = JLusis_HMDP/pipeline_KO/HMDP161.out
+
+sample = HMDP161
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP162.log
+error = JLusis_HMDP/pipeline_KO/HMDP162.error
+output = JLusis_HMDP/pipeline_KO/HMDP162.out
+
+sample = HMDP162
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP163.log
+error = JLusis_HMDP/pipeline_KO/HMDP163.error
+output = JLusis_HMDP/pipeline_KO/HMDP163.out
+
+sample = HMDP163
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP164.log
+error = JLusis_HMDP/pipeline_KO/HMDP164.error
+output = JLusis_HMDP/pipeline_KO/HMDP164.out
+
+sample = HMDP164
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP165.log
+error = JLusis_HMDP/pipeline_KO/HMDP165.error
+output = JLusis_HMDP/pipeline_KO/HMDP165.out
+
+sample = HMDP165
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP166.log
+error = JLusis_HMDP/pipeline_KO/HMDP166.error
+output = JLusis_HMDP/pipeline_KO/HMDP166.out
+
+sample = HMDP166
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP167.log
+error = JLusis_HMDP/pipeline_KO/HMDP167.error
+output = JLusis_HMDP/pipeline_KO/HMDP167.out
+
+sample = HMDP167
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP168.log
+error = JLusis_HMDP/pipeline_KO/HMDP168.error
+output = JLusis_HMDP/pipeline_KO/HMDP168.out
+
+sample = HMDP168
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP169.log
+error = JLusis_HMDP/pipeline_KO/HMDP169.error
+output = JLusis_HMDP/pipeline_KO/HMDP169.out
+
+sample = HMDP169
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP170.log
+error = JLusis_HMDP/pipeline_KO/HMDP170.error
+output = JLusis_HMDP/pipeline_KO/HMDP170.out
+
+sample = HMDP170
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP171.log
+error = JLusis_HMDP/pipeline_KO/HMDP171.error
+output = JLusis_HMDP/pipeline_KO/HMDP171.out
+
+sample = HMDP171
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP172.log
+error = JLusis_HMDP/pipeline_KO/HMDP172.error
+output = JLusis_HMDP/pipeline_KO/HMDP172.out
+
+sample = HMDP172
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP174.log
+error = JLusis_HMDP/pipeline_KO/HMDP174.error
+output = JLusis_HMDP/pipeline_KO/HMDP174.out
+
+sample = HMDP174
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP175.log
+error = JLusis_HMDP/pipeline_KO/HMDP175.error
+output = JLusis_HMDP/pipeline_KO/HMDP175.out
+
+sample = HMDP175
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP176.log
+error = JLusis_HMDP/pipeline_KO/HMDP176.error
+output = JLusis_HMDP/pipeline_KO/HMDP176.out
+
+sample = HMDP176
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP177.log
+error = JLusis_HMDP/pipeline_KO/HMDP177.error
+output = JLusis_HMDP/pipeline_KO/HMDP177.out
+
+sample = HMDP177
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP178.log
+error = JLusis_HMDP/pipeline_KO/HMDP178.error
+output = JLusis_HMDP/pipeline_KO/HMDP178.out
+
+sample = HMDP178
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP179.log
+error = JLusis_HMDP/pipeline_KO/HMDP179.error
+output = JLusis_HMDP/pipeline_KO/HMDP179.out
+
+sample = HMDP179
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP180.log
+error = JLusis_HMDP/pipeline_KO/HMDP180.error
+output = JLusis_HMDP/pipeline_KO/HMDP180.out
+
+sample = HMDP180
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP181.log
+error = JLusis_HMDP/pipeline_KO/HMDP181.error
+output = JLusis_HMDP/pipeline_KO/HMDP181.out
+
+sample = HMDP181
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP182.log
+error = JLusis_HMDP/pipeline_KO/HMDP182.error
+output = JLusis_HMDP/pipeline_KO/HMDP182.out
+
+sample = HMDP182
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP183.log
+error = JLusis_HMDP/pipeline_KO/HMDP183.error
+output = JLusis_HMDP/pipeline_KO/HMDP183.out
+
+sample = HMDP183
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP184.log
+error = JLusis_HMDP/pipeline_KO/HMDP184.error
+output = JLusis_HMDP/pipeline_KO/HMDP184.out
+
+sample = HMDP184
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP185.log
+error = JLusis_HMDP/pipeline_KO/HMDP185.error
+output = JLusis_HMDP/pipeline_KO/HMDP185.out
+
+sample = HMDP185
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP186.log
+error = JLusis_HMDP/pipeline_KO/HMDP186.error
+output = JLusis_HMDP/pipeline_KO/HMDP186.out
+
+sample = HMDP186
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP187.log
+error = JLusis_HMDP/pipeline_KO/HMDP187.error
+output = JLusis_HMDP/pipeline_KO/HMDP187.out
+
+sample = HMDP187
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP188.log
+error = JLusis_HMDP/pipeline_KO/HMDP188.error
+output = JLusis_HMDP/pipeline_KO/HMDP188.out
+
+sample = HMDP188
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP189.log
+error = JLusis_HMDP/pipeline_KO/HMDP189.error
+output = JLusis_HMDP/pipeline_KO/HMDP189.out
+
+sample = HMDP189
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP190.log
+error = JLusis_HMDP/pipeline_KO/HMDP190.error
+output = JLusis_HMDP/pipeline_KO/HMDP190.out
+
+sample = HMDP190
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP191.log
+error = JLusis_HMDP/pipeline_KO/HMDP191.error
+output = JLusis_HMDP/pipeline_KO/HMDP191.out
+
+sample = HMDP191
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP192.log
+error = JLusis_HMDP/pipeline_KO/HMDP192.error
+output = JLusis_HMDP/pipeline_KO/HMDP192.out
+
+sample = HMDP192
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP193.log
+error = JLusis_HMDP/pipeline_KO/HMDP193.error
+output = JLusis_HMDP/pipeline_KO/HMDP193.out
+
+sample = HMDP193
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP194.log
+error = JLusis_HMDP/pipeline_KO/HMDP194.error
+output = JLusis_HMDP/pipeline_KO/HMDP194.out
+
+sample = HMDP194
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP195.log
+error = JLusis_HMDP/pipeline_KO/HMDP195.error
+output = JLusis_HMDP/pipeline_KO/HMDP195.out
+
+sample = HMDP195
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP196.log
+error = JLusis_HMDP/pipeline_KO/HMDP196.error
+output = JLusis_HMDP/pipeline_KO/HMDP196.out
+
+sample = HMDP196
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP197.log
+error = JLusis_HMDP/pipeline_KO/HMDP197.error
+output = JLusis_HMDP/pipeline_KO/HMDP197.out
+
+sample = HMDP197
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP198.log
+error = JLusis_HMDP/pipeline_KO/HMDP198.error
+output = JLusis_HMDP/pipeline_KO/HMDP198.out
+
+sample = HMDP198
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP199.log
+error = JLusis_HMDP/pipeline_KO/HMDP199.error
+output = JLusis_HMDP/pipeline_KO/HMDP199.out
+
+sample = HMDP199
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP200.log
+error = JLusis_HMDP/pipeline_KO/HMDP200.error
+output = JLusis_HMDP/pipeline_KO/HMDP200.out
+
+sample = HMDP200
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP201.log
+error = JLusis_HMDP/pipeline_KO/HMDP201.error
+output = JLusis_HMDP/pipeline_KO/HMDP201.out
+
+sample = HMDP201
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP202.log
+error = JLusis_HMDP/pipeline_KO/HMDP202.error
+output = JLusis_HMDP/pipeline_KO/HMDP202.out
+
+sample = HMDP202
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP203.log
+error = JLusis_HMDP/pipeline_KO/HMDP203.error
+output = JLusis_HMDP/pipeline_KO/HMDP203.out
+
+sample = HMDP203
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP204.log
+error = JLusis_HMDP/pipeline_KO/HMDP204.error
+output = JLusis_HMDP/pipeline_KO/HMDP204.out
+
+sample = HMDP204
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP205.log
+error = JLusis_HMDP/pipeline_KO/HMDP205.error
+output = JLusis_HMDP/pipeline_KO/HMDP205.out
+
+sample = HMDP205
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP206.log
+error = JLusis_HMDP/pipeline_KO/HMDP206.error
+output = JLusis_HMDP/pipeline_KO/HMDP206.out
+
+sample = HMDP206
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP207.log
+error = JLusis_HMDP/pipeline_KO/HMDP207.error
+output = JLusis_HMDP/pipeline_KO/HMDP207.out
+
+sample = HMDP207
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP208.log
+error = JLusis_HMDP/pipeline_KO/HMDP208.error
+output = JLusis_HMDP/pipeline_KO/HMDP208.out
+
+sample = HMDP208
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP209.log
+error = JLusis_HMDP/pipeline_KO/HMDP209.error
+output = JLusis_HMDP/pipeline_KO/HMDP209.out
+
+sample = HMDP209
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP210.log
+error = JLusis_HMDP/pipeline_KO/HMDP210.error
+output = JLusis_HMDP/pipeline_KO/HMDP210.out
+
+sample = HMDP210
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP211.log
+error = JLusis_HMDP/pipeline_KO/HMDP211.error
+output = JLusis_HMDP/pipeline_KO/HMDP211.out
+
+sample = HMDP211
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP212.log
+error = JLusis_HMDP/pipeline_KO/HMDP212.error
+output = JLusis_HMDP/pipeline_KO/HMDP212.out
+
+sample = HMDP212
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP213.log
+error = JLusis_HMDP/pipeline_KO/HMDP213.error
+output = JLusis_HMDP/pipeline_KO/HMDP213.out
+
+sample = HMDP213
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP214.log
+error = JLusis_HMDP/pipeline_KO/HMDP214.error
+output = JLusis_HMDP/pipeline_KO/HMDP214.out
+
+sample = HMDP214
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP215.log
+error = JLusis_HMDP/pipeline_KO/HMDP215.error
+output = JLusis_HMDP/pipeline_KO/HMDP215.out
+
+sample = HMDP215
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP216.log
+error = JLusis_HMDP/pipeline_KO/HMDP216.error
+output = JLusis_HMDP/pipeline_KO/HMDP216.out
+
+sample = HMDP216
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP217.log
+error = JLusis_HMDP/pipeline_KO/HMDP217.error
+output = JLusis_HMDP/pipeline_KO/HMDP217.out
+
+sample = HMDP217
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP218.log
+error = JLusis_HMDP/pipeline_KO/HMDP218.error
+output = JLusis_HMDP/pipeline_KO/HMDP218.out
+
+sample = HMDP218
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP219.log
+error = JLusis_HMDP/pipeline_KO/HMDP219.error
+output = JLusis_HMDP/pipeline_KO/HMDP219.out
+
+sample = HMDP219
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP220.log
+error = JLusis_HMDP/pipeline_KO/HMDP220.error
+output = JLusis_HMDP/pipeline_KO/HMDP220.out
+
+sample = HMDP220
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP221.log
+error = JLusis_HMDP/pipeline_KO/HMDP221.error
+output = JLusis_HMDP/pipeline_KO/HMDP221.out
+
+sample = HMDP221
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP222.log
+error = JLusis_HMDP/pipeline_KO/HMDP222.error
+output = JLusis_HMDP/pipeline_KO/HMDP222.out
+
+sample = HMDP222
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP223.log
+error = JLusis_HMDP/pipeline_KO/HMDP223.error
+output = JLusis_HMDP/pipeline_KO/HMDP223.out
+
+sample = HMDP223
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP224.log
+error = JLusis_HMDP/pipeline_KO/HMDP224.error
+output = JLusis_HMDP/pipeline_KO/HMDP224.out
+
+sample = HMDP224
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP225.log
+error = JLusis_HMDP/pipeline_KO/HMDP225.error
+output = JLusis_HMDP/pipeline_KO/HMDP225.out
+
+sample = HMDP225
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP226.log
+error = JLusis_HMDP/pipeline_KO/HMDP226.error
+output = JLusis_HMDP/pipeline_KO/HMDP226.out
+
+sample = HMDP226
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP227.log
+error = JLusis_HMDP/pipeline_KO/HMDP227.error
+output = JLusis_HMDP/pipeline_KO/HMDP227.out
+
+sample = HMDP227
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP228.log
+error = JLusis_HMDP/pipeline_KO/HMDP228.error
+output = JLusis_HMDP/pipeline_KO/HMDP228.out
+
+sample = HMDP228
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP229.log
+error = JLusis_HMDP/pipeline_KO/HMDP229.error
+output = JLusis_HMDP/pipeline_KO/HMDP229.out
+
+sample = HMDP229
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP230.log
+error = JLusis_HMDP/pipeline_KO/HMDP230.error
+output = JLusis_HMDP/pipeline_KO/HMDP230.out
+
+sample = HMDP230
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP231.log
+error = JLusis_HMDP/pipeline_KO/HMDP231.error
+output = JLusis_HMDP/pipeline_KO/HMDP231.out
+
+sample = HMDP231
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP232.log
+error = JLusis_HMDP/pipeline_KO/HMDP232.error
+output = JLusis_HMDP/pipeline_KO/HMDP232.out
+
+sample = HMDP232
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP233.log
+error = JLusis_HMDP/pipeline_KO/HMDP233.error
+output = JLusis_HMDP/pipeline_KO/HMDP233.out
+
+sample = HMDP233
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP234.log
+error = JLusis_HMDP/pipeline_KO/HMDP234.error
+output = JLusis_HMDP/pipeline_KO/HMDP234.out
+
+sample = HMDP234
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP235.log
+error = JLusis_HMDP/pipeline_KO/HMDP235.error
+output = JLusis_HMDP/pipeline_KO/HMDP235.out
+
+sample = HMDP235
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP236.log
+error = JLusis_HMDP/pipeline_KO/HMDP236.error
+output = JLusis_HMDP/pipeline_KO/HMDP236.out
+
+sample = HMDP236
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP237.log
+error = JLusis_HMDP/pipeline_KO/HMDP237.error
+output = JLusis_HMDP/pipeline_KO/HMDP237.out
+
+sample = HMDP237
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP238.log
+error = JLusis_HMDP/pipeline_KO/HMDP238.error
+output = JLusis_HMDP/pipeline_KO/HMDP238.out
+
+sample = HMDP238
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP239.log
+error = JLusis_HMDP/pipeline_KO/HMDP239.error
+output = JLusis_HMDP/pipeline_KO/HMDP239.out
+
+sample = HMDP239
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP240.log
+error = JLusis_HMDP/pipeline_KO/HMDP240.error
+output = JLusis_HMDP/pipeline_KO/HMDP240.out
+
+sample = HMDP240
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP241.log
+error = JLusis_HMDP/pipeline_KO/HMDP241.error
+output = JLusis_HMDP/pipeline_KO/HMDP241.out
+
+sample = HMDP241
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP242.log
+error = JLusis_HMDP/pipeline_KO/HMDP242.error
+output = JLusis_HMDP/pipeline_KO/HMDP242.out
+
+sample = HMDP242
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP243.log
+error = JLusis_HMDP/pipeline_KO/HMDP243.error
+output = JLusis_HMDP/pipeline_KO/HMDP243.out
+
+sample = HMDP243
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP244.log
+error = JLusis_HMDP/pipeline_KO/HMDP244.error
+output = JLusis_HMDP/pipeline_KO/HMDP244.out
+
+sample = HMDP244
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP245.log
+error = JLusis_HMDP/pipeline_KO/HMDP245.error
+output = JLusis_HMDP/pipeline_KO/HMDP245.out
+
+sample = HMDP245
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP246.log
+error = JLusis_HMDP/pipeline_KO/HMDP246.error
+output = JLusis_HMDP/pipeline_KO/HMDP246.out
+
+sample = HMDP246
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP247.log
+error = JLusis_HMDP/pipeline_KO/HMDP247.error
+output = JLusis_HMDP/pipeline_KO/HMDP247.out
+
+sample = HMDP247
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP248.log
+error = JLusis_HMDP/pipeline_KO/HMDP248.error
+output = JLusis_HMDP/pipeline_KO/HMDP248.out
+
+sample = HMDP248
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP249.log
+error = JLusis_HMDP/pipeline_KO/HMDP249.error
+output = JLusis_HMDP/pipeline_KO/HMDP249.out
+
+sample = HMDP249
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP250.log
+error = JLusis_HMDP/pipeline_KO/HMDP250.error
+output = JLusis_HMDP/pipeline_KO/HMDP250.out
+
+sample = HMDP250
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP251.log
+error = JLusis_HMDP/pipeline_KO/HMDP251.error
+output = JLusis_HMDP/pipeline_KO/HMDP251.out
+
+sample = HMDP251
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP252.log
+error = JLusis_HMDP/pipeline_KO/HMDP252.error
+output = JLusis_HMDP/pipeline_KO/HMDP252.out
+
+sample = HMDP252
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP253.log
+error = JLusis_HMDP/pipeline_KO/HMDP253.error
+output = JLusis_HMDP/pipeline_KO/HMDP253.out
+
+sample = HMDP253
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP254.log
+error = JLusis_HMDP/pipeline_KO/HMDP254.error
+output = JLusis_HMDP/pipeline_KO/HMDP254.out
+
+sample = HMDP254
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP255.log
+error = JLusis_HMDP/pipeline_KO/HMDP255.error
+output = JLusis_HMDP/pipeline_KO/HMDP255.out
+
+sample = HMDP255
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP256.log
+error = JLusis_HMDP/pipeline_KO/HMDP256.error
+output = JLusis_HMDP/pipeline_KO/HMDP256.out
+
+sample = HMDP256
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP257.log
+error = JLusis_HMDP/pipeline_KO/HMDP257.error
+output = JLusis_HMDP/pipeline_KO/HMDP257.out
+
+sample = HMDP257
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP258.log
+error = JLusis_HMDP/pipeline_KO/HMDP258.error
+output = JLusis_HMDP/pipeline_KO/HMDP258.out
+
+sample = HMDP258
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP259.log
+error = JLusis_HMDP/pipeline_KO/HMDP259.error
+output = JLusis_HMDP/pipeline_KO/HMDP259.out
+
+sample = HMDP259
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP260.log
+error = JLusis_HMDP/pipeline_KO/HMDP260.error
+output = JLusis_HMDP/pipeline_KO/HMDP260.out
+
+sample = HMDP260
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP261.log
+error = JLusis_HMDP/pipeline_KO/HMDP261.error
+output = JLusis_HMDP/pipeline_KO/HMDP261.out
+
+sample = HMDP261
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP262.log
+error = JLusis_HMDP/pipeline_KO/HMDP262.error
+output = JLusis_HMDP/pipeline_KO/HMDP262.out
+
+sample = HMDP262
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP263.log
+error = JLusis_HMDP/pipeline_KO/HMDP263.error
+output = JLusis_HMDP/pipeline_KO/HMDP263.out
+
+sample = HMDP263
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP264.log
+error = JLusis_HMDP/pipeline_KO/HMDP264.error
+output = JLusis_HMDP/pipeline_KO/HMDP264.out
+
+sample = HMDP264
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP265.log
+error = JLusis_HMDP/pipeline_KO/HMDP265.error
+output = JLusis_HMDP/pipeline_KO/HMDP265.out
+
+sample = HMDP265
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP266.log
+error = JLusis_HMDP/pipeline_KO/HMDP266.error
+output = JLusis_HMDP/pipeline_KO/HMDP266.out
+
+sample = HMDP266
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP267.log
+error = JLusis_HMDP/pipeline_KO/HMDP267.error
+output = JLusis_HMDP/pipeline_KO/HMDP267.out
+
+sample = HMDP267
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP268.log
+error = JLusis_HMDP/pipeline_KO/HMDP268.error
+output = JLusis_HMDP/pipeline_KO/HMDP268.out
+
+sample = HMDP268
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP269.log
+error = JLusis_HMDP/pipeline_KO/HMDP269.error
+output = JLusis_HMDP/pipeline_KO/HMDP269.out
+
+sample = HMDP269
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP270.log
+error = JLusis_HMDP/pipeline_KO/HMDP270.error
+output = JLusis_HMDP/pipeline_KO/HMDP270.out
+
+sample = HMDP270
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP271.log
+error = JLusis_HMDP/pipeline_KO/HMDP271.error
+output = JLusis_HMDP/pipeline_KO/HMDP271.out
+
+sample = HMDP271
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP272.log
+error = JLusis_HMDP/pipeline_KO/HMDP272.error
+output = JLusis_HMDP/pipeline_KO/HMDP272.out
+
+sample = HMDP272
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP273.log
+error = JLusis_HMDP/pipeline_KO/HMDP273.error
+output = JLusis_HMDP/pipeline_KO/HMDP273.out
+
+sample = HMDP273
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP274.log
+error = JLusis_HMDP/pipeline_KO/HMDP274.error
+output = JLusis_HMDP/pipeline_KO/HMDP274.out
+
+sample = HMDP274
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP275.log
+error = JLusis_HMDP/pipeline_KO/HMDP275.error
+output = JLusis_HMDP/pipeline_KO/HMDP275.out
+
+sample = HMDP275
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP276.log
+error = JLusis_HMDP/pipeline_KO/HMDP276.error
+output = JLusis_HMDP/pipeline_KO/HMDP276.out
+
+sample = HMDP276
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP277.log
+error = JLusis_HMDP/pipeline_KO/HMDP277.error
+output = JLusis_HMDP/pipeline_KO/HMDP277.out
+
+sample = HMDP277
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP278.log
+error = JLusis_HMDP/pipeline_KO/HMDP278.error
+output = JLusis_HMDP/pipeline_KO/HMDP278.out
+
+sample = HMDP278
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP279.log
+error = JLusis_HMDP/pipeline_KO/HMDP279.error
+output = JLusis_HMDP/pipeline_KO/HMDP279.out
+
+sample = HMDP279
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP280.log
+error = JLusis_HMDP/pipeline_KO/HMDP280.error
+output = JLusis_HMDP/pipeline_KO/HMDP280.out
+
+sample = HMDP280
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP281.log
+error = JLusis_HMDP/pipeline_KO/HMDP281.error
+output = JLusis_HMDP/pipeline_KO/HMDP281.out
+
+sample = HMDP281
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP282.log
+error = JLusis_HMDP/pipeline_KO/HMDP282.error
+output = JLusis_HMDP/pipeline_KO/HMDP282.out
+
+sample = HMDP282
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP283.log
+error = JLusis_HMDP/pipeline_KO/HMDP283.error
+output = JLusis_HMDP/pipeline_KO/HMDP283.out
+
+sample = HMDP283
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP284.log
+error = JLusis_HMDP/pipeline_KO/HMDP284.error
+output = JLusis_HMDP/pipeline_KO/HMDP284.out
+
+sample = HMDP284
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP285.log
+error = JLusis_HMDP/pipeline_KO/HMDP285.error
+output = JLusis_HMDP/pipeline_KO/HMDP285.out
+
+sample = HMDP285
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP286.log
+error = JLusis_HMDP/pipeline_KO/HMDP286.error
+output = JLusis_HMDP/pipeline_KO/HMDP286.out
+
+sample = HMDP286
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP287.log
+error = JLusis_HMDP/pipeline_KO/HMDP287.error
+output = JLusis_HMDP/pipeline_KO/HMDP287.out
+
+sample = HMDP287
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP288.log
+error = JLusis_HMDP/pipeline_KO/HMDP288.error
+output = JLusis_HMDP/pipeline_KO/HMDP288.out
+
+sample = HMDP288
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP289.log
+error = JLusis_HMDP/pipeline_KO/HMDP289.error
+output = JLusis_HMDP/pipeline_KO/HMDP289.out
+
+sample = HMDP289
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP290.log
+error = JLusis_HMDP/pipeline_KO/HMDP290.error
+output = JLusis_HMDP/pipeline_KO/HMDP290.out
+
+sample = HMDP290
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP291.log
+error = JLusis_HMDP/pipeline_KO/HMDP291.error
+output = JLusis_HMDP/pipeline_KO/HMDP291.out
+
+sample = HMDP291
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP292.log
+error = JLusis_HMDP/pipeline_KO/HMDP292.error
+output = JLusis_HMDP/pipeline_KO/HMDP292.out
+
+sample = HMDP292
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP293.log
+error = JLusis_HMDP/pipeline_KO/HMDP293.error
+output = JLusis_HMDP/pipeline_KO/HMDP293.out
+
+sample = HMDP293
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP294.log
+error = JLusis_HMDP/pipeline_KO/HMDP294.error
+output = JLusis_HMDP/pipeline_KO/HMDP294.out
+
+sample = HMDP294
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP295.log
+error = JLusis_HMDP/pipeline_KO/HMDP295.error
+output = JLusis_HMDP/pipeline_KO/HMDP295.out
+
+sample = HMDP295
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP296.log
+error = JLusis_HMDP/pipeline_KO/HMDP296.error
+output = JLusis_HMDP/pipeline_KO/HMDP296.out
+
+sample = HMDP296
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP297.log
+error = JLusis_HMDP/pipeline_KO/HMDP297.error
+output = JLusis_HMDP/pipeline_KO/HMDP297.out
+
+sample = HMDP297
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/pipeline_KO/HMDP298.log
+error = JLusis_HMDP/pipeline_KO/HMDP298.error
+output = JLusis_HMDP/pipeline_KO/HMDP298.out
+
+sample = HMDP298
+
+request_memory = 64GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
