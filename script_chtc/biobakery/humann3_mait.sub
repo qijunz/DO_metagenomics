@@ -1,0 +1,490 @@
+universe = docker
+
+docker_image = biobakery/humann:3.0.0
+
+executable = humann3_mait.sh
+arguments = $(wgs_name) $(sample)
+
+#REQUIREMENTS:
+Requirements = (OpSys == "LINUX") && (OpSysMajorVer == 7) && (Target.HasCHTCStaging == true)
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+
+log = humann3_mait/MAIT01.log
+error = humann3_mait/MAIT01.error
+output = humann3_mait/MAIT01.out
+
+wgs_name = A1_MAIT_1_S5
+sample = MAIT01
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT09.log
+error = humann3_mait/MAIT09.error
+output = humann3_mait/MAIT09.out
+
+wgs_name = A2_MAIT_9_S6
+sample = MAIT09
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT17.log
+error = humann3_mait/MAIT17.error
+output = humann3_mait/MAIT17.out
+
+wgs_name = A3_MAIT_17_S7
+sample = MAIT17
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT25.log
+error = humann3_mait/MAIT25.error
+output = humann3_mait/MAIT25.out
+
+wgs_name = A4_MAIT_25_S8
+sample = MAIT25
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT33.log
+error = humann3_mait/MAIT33.error
+output = humann3_mait/MAIT33.out
+
+wgs_name = A5_MAIT_33_S9
+sample = MAIT33
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT02.log
+error = humann3_mait/MAIT02.error
+output = humann3_mait/MAIT02.out
+
+wgs_name = B1_MAIT_2_S10
+sample = MAIT02
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT10.log
+error = humann3_mait/MAIT10.error
+output = humann3_mait/MAIT10.out
+
+wgs_name = B2_MAIT_10_S11
+sample = MAIT10
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT18.log
+error = humann3_mait/MAIT18.error
+output = humann3_mait/MAIT18.out
+
+wgs_name = B3_MAIT_18_S12
+sample = MAIT18
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT26.log
+error = humann3_mait/MAIT26.error
+output = humann3_mait/MAIT26.out
+
+wgs_name = B4_MAIT_26_S13
+sample = MAIT26
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT34.log
+error = humann3_mait/MAIT34.error
+output = humann3_mait/MAIT34.out
+
+wgs_name = B5_MAIT_34_S14
+sample = MAIT34
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT03.log
+error = humann3_mait/MAIT03.error
+output = humann3_mait/MAIT03.out
+
+wgs_name = C1_MAIT_3_S15
+sample = MAIT03
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT11.log
+error = humann3_mait/MAIT11.error
+output = humann3_mait/MAIT11.out
+
+wgs_name = C2_MAIT_11_S16
+sample = MAIT11
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT19.log
+error = humann3_mait/MAIT19.error
+output = humann3_mait/MAIT19.out
+
+wgs_name = C3_MAIT_19_S17
+sample = MAIT19
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT27.log
+error = humann3_mait/MAIT27.error
+output = humann3_mait/MAIT27.out
+
+wgs_name = C4_MAIT_27_S18
+sample = MAIT27
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT04.log
+error = humann3_mait/MAIT04.error
+output = humann3_mait/MAIT04.out
+
+wgs_name = D1_MAIT_4_S19
+sample = MAIT04
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT12.log
+error = humann3_mait/MAIT12.error
+output = humann3_mait/MAIT12.out
+
+wgs_name = D2_MAIT_12_S20
+sample = MAIT12
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT20.log
+error = humann3_mait/MAIT20.error
+output = humann3_mait/MAIT20.out
+
+wgs_name = D3_MAIT_20_S21
+sample = MAIT20
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT28.log
+error = humann3_mait/MAIT28.error
+output = humann3_mait/MAIT28.out
+
+wgs_name = D4_MAIT_28_S22
+sample = MAIT28
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT05.log
+error = humann3_mait/MAIT05.error
+output = humann3_mait/MAIT05.out
+
+wgs_name = E1_MAIT_5_S23
+sample = MAIT05
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT13.log
+error = humann3_mait/MAIT13.error
+output = humann3_mait/MAIT13.out
+
+wgs_name = E2_MAIT_13_S24
+sample = MAIT13
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT21.log
+error = humann3_mait/MAIT21.error
+output = humann3_mait/MAIT21.out
+
+wgs_name = E3_MAIT_21_S25
+sample = MAIT21
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT29.log
+error = humann3_mait/MAIT29.error
+output = humann3_mait/MAIT29.out
+
+wgs_name = E4_MAIT_29_S26
+sample = MAIT29
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT06.log
+error = humann3_mait/MAIT06.error
+output = humann3_mait/MAIT06.out
+
+wgs_name = F1_MAIT_6_S27
+sample = MAIT06
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT14.log
+error = humann3_mait/MAIT14.error
+output = humann3_mait/MAIT14.out
+
+wgs_name = F2_MAIT_14_S28
+sample = MAIT14
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT22.log
+error = humann3_mait/MAIT22.error
+output = humann3_mait/MAIT22.out
+
+wgs_name = F3_MAIT_22_S29
+sample = MAIT22
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT30.log
+error = humann3_mait/MAIT30.error
+output = humann3_mait/MAIT30.out
+
+wgs_name = F4_MAIT_30_S30
+sample = MAIT30
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT07.log
+error = humann3_mait/MAIT07.error
+output = humann3_mait/MAIT07.out
+
+wgs_name = G1_MAIT_7_S31
+sample = MAIT07
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT15.log
+error = humann3_mait/MAIT15.error
+output = humann3_mait/MAIT15.out
+
+wgs_name = G2_MAIT_15_S32
+sample = MAIT15
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT23.log
+error = humann3_mait/MAIT23.error
+output = humann3_mait/MAIT23.out
+
+wgs_name = G3_MAIT_23_S33
+sample = MAIT23
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT31.log
+error = humann3_mait/MAIT31.error
+output = humann3_mait/MAIT31.out
+
+wgs_name = G4_MAIT_31_S34
+sample = MAIT31
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT08.log
+error = humann3_mait/MAIT08.error
+output = humann3_mait/MAIT08.out
+
+wgs_name = H1_MAIT_8_S35
+sample = MAIT08
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT16.log
+error = humann3_mait/MAIT16.error
+output = humann3_mait/MAIT16.out
+
+wgs_name = H2_MAIT_16_S36
+sample = MAIT16
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT24.log
+error = humann3_mait/MAIT24.error
+output = humann3_mait/MAIT24.out
+
+wgs_name = H3_MAIT_24_S37
+sample = MAIT24
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
+log = humann3_mait/MAIT32.log
+error = humann3_mait/MAIT32.error
+output = humann3_mait/MAIT32.out
+
+wgs_name = H4_MAIT_32_S38
+sample = MAIT32
+
+request_memory = 100GB
+request_disk = 400GB
+request_cpus = 16
+
+queue
+
+
