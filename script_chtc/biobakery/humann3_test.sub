@@ -1,0 +1,26 @@
+universe = docker
+
+docker_image = biobakery/humann:3.0.0
+
+executable = humann3_test.sh
+arguments = $(wgs_name) $(sample)
+
+#REQUIREMENTS:
+Requirements = (OpSys == "LINUX") && (OpSysMajorVer == 7) && (Target.HasCHTCStaging == true)
+
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+log = humann3_test.log
+error = humann3_test.err
+output = humann3_test.out
+
+wgs_name = A1_MAIT_1_S5
+sample = MAIT01
+
+request_memory = 50GB
+request_disk = 200GB
+request_cpus = 8
+
+queue
